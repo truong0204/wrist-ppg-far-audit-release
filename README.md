@@ -1,7 +1,7 @@
 # wrist-ppg-far-audit-release
 
 Analysis plan, deviations, timestamp records, code and results of the study "Per-wearer false-alarm guarantees for
-wrist-PPG heart-rate alarms do not transfer to outdoor free-living wear: a pre-specified audit on WildPPG" (Nguyen Xuan
+wrist-PPG heart-rate alarms did not hold under outdoor free-living wear: a pre-specified audit on WildPPG" (Nguyen Xuan
 Truong, FPT School of Business & Technology, FPT University). The files are copied unchanged from the project
 repository, whose version-control history (tag `prereg-v2.2`, freeze commit `2decaae`, opening commit `d402033`) is
 not public and is available to the editor and reviewers on request. An archival copy of the project files at
