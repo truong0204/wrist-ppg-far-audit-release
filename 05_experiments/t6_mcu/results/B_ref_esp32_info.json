@@ -1,0 +1,71 @@
+[
+ {
+  "run": 0,
+  "info": {
+   "ok": 1,
+   "idf": "v5.5.6",
+   "cpu_mhz": 240,
+   "esp_nn": "optimized",
+   "opt": "perf(-O2)",
+   "arena_bytes": 98304,
+   "arena_used": 18380,
+   "model_bytes": 24472,
+   "in_type": 9,
+   "out_type": 9,
+   "psram": 0,
+   "free_heap": 132944
+  },
+  "end": {
+   "min_free_heap": 132944,
+   "stack_hwm_bytes": 13984,
+   "arena_used": 18380,
+   "windows": 100
+  }
+ },
+ {
+  "run": 1,
+  "info": {
+   "ok": 1,
+   "idf": "v5.5.6",
+   "cpu_mhz": 240,
+   "esp_nn": "optimized",
+   "opt": "perf(-O2)",
+   "arena_bytes": 98304,
+   "arena_used": 18380,
+   "model_bytes": 24472,
+   "in_type": 9,
+   "out_type": 9,
+   "psram": 0,
+   "free_heap": 132944
+  },
+  "end": {
+   "min_free_heap": 132944,
+   "stack_hwm_bytes": 13984,
+   "arena_used": 18380,
+   "windows": 100
+  }
+ },
+ {
+  "run": 2,
+  "info": {
+   "ok": 1,
+   "idf": "v5.5.6",
+   "cpu_mhz": 240,
+   "esp_nn": "optimized",
+   "opt": "perf(-O2)",
+   "arena_bytes": 98304,
+   "arena_used": 18380,
+   "model_bytes": 24472,
+   "in_type": 9,
+   "out_type": 9,
+   "psram": 0,
+   "free_heap": 132944
+  },
+  "end": {
+   "min_free_heap": 132944,
+   "stack_hwm_bytes": 13984,
+   "arena_used": 18380,
+   "windows": 100
+  }
+ }
+]

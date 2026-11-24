@@ -1,0 +1,302 @@
+{
+  "created": "2026-11-21T13:06:25",
+  "git_commit": "8f614b4b66b0b0a14c82e180584679443457d6c1",
+  "env": {
+    "python": "3.12.16",
+    "numpy": "2.1.3",
+    "scipy": "1.14.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64"
+  },
+  "seeds": "not applicable: pipeline has no random step",
+  "config": {
+    "subjects": [
+      "S10",
+      "S11",
+      "S12"
+    ],
+    "threshold_bpm": 120,
+    "event": {
+      "k_min_windows": 3,
+      "merge_gap_windows": 5,
+      "match_tolerance_s": 10
+    },
+    "b2": {
+      "alphas": [
+        0.05,
+        0.01
+      ],
+      "calibration": "loso_within_pilot"
+    },
+    "gate_g1": {
+      "far_b0_min_per_hour": 0.1,
+      "min_reference_episodes_full_dataset": 20
+    },
+    "alternative_events_label_only": [
+      {
+        "name": "HR>100",
+        "threshold_bpm": 100
+      },
+      {
+        "name": "HR>110",
+        "threshold_bpm": 110
+      },
+      {
+        "name": "HR>120",
+        "threshold_bpm": 120
+      },
+      {
+        "name": "HR>130",
+        "threshold_bpm": 130
+      },
+      {
+        "name": "HR>sit+30",
+        "relative_to_sitting_median_bpm": 30
+      },
+      {
+        "name": "HR>sit+40",
+        "relative_to_sitting_median_bpm": 40
+      }
+    ]
+  },
+  "e1_params": {
+    "win_s": 8,
+    "shift_s": 2,
+    "band_bpm": [
+      40.0,
+      200.0
+    ],
+    "nfft_bvp": 8192,
+    "nfft_acc": 4096,
+    "bp_hz": [
+      0.5,
+      4.0
+    ],
+    "bp_order": 4,
+    "motion_std_g": 0.02,
+    "acc_peak_rel": 0.5,
+    "n_acc_peaks": 2,
+    "mask_halfwidth_bpm": 6.0,
+    "track_bpm": 15.0,
+    "max_hold": 5
+  },
+  "per_subject": [
+    {
+      "subject": "S10",
+      "hours": 2.957777777777778,
+      "windows": 5321,
+      "e1_mae_bpm": 26.57850999449601,
+      "motion_frac": 0.7558729562112385,
+      "method": "B0",
+      "q_bpm": 0.0,
+      "n_ref": 6,
+      "n_alarm": 11,
+      "n_fa": 8,
+      "n_detected": 3,
+      "window_fpr": 0.21614118580210193,
+      "fa_by_activity": {
+        "transient": 5,
+        "table_soccer": 1,
+        "working": 2
+      }
+    },
+    {
+      "subject": "S10",
+      "hours": 2.957777777777778,
+      "windows": 5321,
+      "e1_mae_bpm": 26.57850999449601,
+      "motion_frac": 0.7558729562112385,
+      "method": "B2(a=0.05)",
+      "q_bpm": 58.029652753597134,
+      "n_ref": 6,
+      "n_alarm": 12,
+      "n_fa": 12,
+      "n_detected": 0,
+      "window_fpr": 0.050168550465992466,
+      "fa_by_activity": {
+        "table_soccer": 3,
+        "transient": 5,
+        "working": 4
+      }
+    },
+    {
+      "subject": "S10",
+      "hours": 2.957777777777778,
+      "windows": 5321,
+      "e1_mae_bpm": 26.57850999449601,
+      "motion_frac": 0.7558729562112385,
+      "method": "B2(a=0.01)",
+      "q_bpm": 89.29153587601245,
+      "n_ref": 6,
+      "n_alarm": 0,
+      "n_fa": 0,
+      "n_detected": 0,
+      "window_fpr": 0.0,
+      "fa_by_activity": {}
+    },
+    {
+      "subject": "S11",
+      "hours": 2.513333333333333,
+      "windows": 4521,
+      "e1_mae_bpm": 22.64292613105859,
+      "motion_frac": 0.7261667772616678,
+      "method": "B0",
+      "q_bpm": 0.0,
+      "n_ref": 10,
+      "n_alarm": 18,
+      "n_fa": 9,
+      "n_detected": 7,
+      "window_fpr": 0.14901512988866686,
+      "fa_by_activity": {
+        "transient": 3,
+        "driving": 2,
+        "lunch": 3,
+        "walking": 1
+      }
+    },
+    {
+      "subject": "S11",
+      "hours": 2.513333333333333,
+      "windows": 4521,
+      "e1_mae_bpm": 22.64292613105859,
+      "motion_frac": 0.7261667772616678,
+      "method": "B2(a=0.05)",
+      "q_bpm": 80.53624087074681,
+      "n_ref": 10,
+      "n_alarm": 0,
+      "n_fa": 0,
+      "n_detected": 0,
+      "window_fpr": 0.0,
+      "fa_by_activity": {}
+    },
+    {
+      "subject": "S11",
+      "hours": 2.513333333333333,
+      "windows": 4521,
+      "e1_mae_bpm": 22.64292613105859,
+      "motion_frac": 0.7261667772616678,
+      "method": "B2(a=0.01)",
+      "q_bpm": 96.1994950707819,
+      "n_ref": 10,
+      "n_alarm": 0,
+      "n_fa": 0,
+      "n_detected": 0,
+      "window_fpr": 0.0,
+      "fa_by_activity": {}
+    },
+    {
+      "subject": "S12",
+      "hours": 2.1983333333333333,
+      "windows": 3954,
+      "e1_mae_bpm": 15.2321877972705,
+      "motion_frac": 0.7862923621648963,
+      "method": "B0",
+      "q_bpm": 0.0,
+      "n_ref": 1,
+      "n_alarm": 16,
+      "n_fa": 15,
+      "n_detected": 1,
+      "window_fpr": 0.05424588086185044,
+      "fa_by_activity": {
+        "stairs": 3,
+        "table_soccer": 1,
+        "transient": 8,
+        "cycling": 1,
+        "lunch": 2
+      }
+    },
+    {
+      "subject": "S12",
+      "hours": 2.1983333333333333,
+      "windows": 3954,
+      "e1_mae_bpm": 15.2321877972705,
+      "motion_frac": 0.7862923621648963,
+      "method": "B2(a=0.05)",
+      "q_bpm": 83.23250318698314,
+      "n_ref": 1,
+      "n_alarm": 0,
+      "n_fa": 0,
+      "n_detected": 0,
+      "window_fpr": 0.0,
+      "fa_by_activity": {}
+    },
+    {
+      "subject": "S12",
+      "hours": 2.1983333333333333,
+      "windows": 3954,
+      "e1_mae_bpm": 15.2321877972705,
+      "motion_frac": 0.7862923621648963,
+      "method": "B2(a=0.01)",
+      "q_bpm": 98.2383851866751,
+      "n_ref": 1,
+      "n_alarm": 0,
+      "n_fa": 0,
+      "n_detected": 0,
+      "window_fpr": 0.0,
+      "fa_by_activity": {}
+    }
+  ],
+  "pooled": [
+    {
+      "method": "B0",
+      "subjects": 3,
+      "hours": 7.669444444444444,
+      "n_fa": 32,
+      "far_per_h": 4.172401303875407,
+      "far_ci95": [
+        2.8539194031374295,
+        5.8901857111884715
+      ],
+      "far_per_subject": [
+        2.70473328324568,
+        3.580901856763926,
+        6.823351023502654
+      ],
+      "n_ref": 17,
+      "n_detected": 11,
+      "sensitivity": 0.6470588235294118
+    },
+    {
+      "method": "B2(a=0.01)",
+      "subjects": 3,
+      "hours": 7.669444444444444,
+      "n_fa": 0,
+      "far_per_h": 0.0,
+      "far_ci95": [
+        0.0,
+        0.48098392013075586
+      ],
+      "far_per_subject": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "n_ref": 17,
+      "n_detected": 0,
+      "sensitivity": 0.0
+    },
+    {
+      "method": "B2(a=0.05)",
+      "subjects": 3,
+      "hours": 7.669444444444444,
+      "n_fa": 12,
+      "far_per_h": 1.5646504889532777,
+      "far_ci95": [
+        0.8084777396378119,
+        2.7331295245721474
+      ],
+      "far_per_subject": [
+        4.05709992486852,
+        0.0,
+        0.0
+      ],
+      "n_ref": 17,
+      "n_detected": 0,
+      "sensitivity": 0.0
+    }
+  ],
+  "gate_g1_part_far": {
+    "b0_far_per_h": 4.172401303875407,
+    "stop": false
+  }
+}

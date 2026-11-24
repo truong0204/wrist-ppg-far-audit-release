@@ -1,0 +1,15 @@
+e61 windows 22225 ref 5557 hours 12.35 rest/light frac 0.75
+u7y windows 23853 ref 5964 hours 13.25 rest/light frac 0.78
+ngh windows 26437 ref 6610 hours 14.69 rest/light frac 0.76
+e61 MAE argmax 8.33  E2 5.34 ± 0.23 (rest 2.43, motion 14.65)  best lag [1, 1, 1, 1, 1]
+u7y MAE argmax 14.98  E2 11.12 ± 0.22 (rest 8.57, motion 19.82)  best lag [1, 1, 1, 1, 1]
+ngh MAE argmax 11.94  E2 9.50 ± 0.19 (rest 6.27, motion 20.70)  best lag [1, 1, 1, 1, 1]
+B0 seed 0 FAR_any 0.57/h [0.36, 0.86] (23 alarms, 40.3 h, 3 IDs); matched FA 0.17/h, det 13/75
+B0 seed 1 FAR_any 0.60/h [0.38, 0.89] (24 alarms, 40.3 h, 3 IDs); matched FA 0.20/h, det 14/75
+B0 seed 2 FAR_any 0.69/h [0.46, 1.00] (28 alarms, 40.3 h, 3 IDs); matched FA 0.25/h, det 15/75
+B0 seed 3 FAR_any 0.67/h [0.44, 0.97] (27 alarms, 40.3 h, 3 IDs); matched FA 0.30/h, det 15/75
+B0 seed 4 FAR_any 0.62/h [0.40, 0.92] (25 alarms, 40.3 h, 3 IDs); matched FA 0.17/h, det 15/75
+inject +20: n=600 median 16.5 IQR [0.0, 20.6] frac>=half 0.61
+inject +30: n=600 median 21.8 IQR [-2.5, 28.8] frac>=half 0.54
+inject +40: n=600 median 16.5 IQR [-4.9, 39.5] frac>=half 0.48
+pooled E2 MAE 8.65; runtime 1133 s

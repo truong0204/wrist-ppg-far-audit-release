@@ -1,0 +1,8 @@
+test blocks per state (rest, light, vigorous) of dev IDs: [[20, 21, 10], [11, 26, 4], [14, 33, 10]]
+f=0.0 c=1.00 | power X1 0.03 X2 0.04 | Y1 0.05 Y2 0.05 | mean X 4.6
+f=0.2 c=1.25 | power X1 0.60 X2 0.61 | Y1 0.61 Y2 0.57 | mean X 9.3
+f=0.4 c=1.25 | power X1 0.97 X2 0.96 | Y1 0.97 Y2 0.96 | mean X 14.0
+f=0.2 c=1.50 | power X1 0.76 X2 0.75 | Y1 0.76 Y2 0.69 | mean X 10.5
+f=0.4 c=1.50 | power X1 1.00 X2 0.99 | Y1 0.99 Y2 0.99 | mean X 16.4
+f=0.2 c=2.00 | power X1 0.83 X2 0.84 | Y1 0.91 Y2 0.82 | mean X 11.3
+f=0.4 c=2.00 | power X1 1.00 X2 1.00 | Y1 1.00 Y2 1.00 | mean X 18.0

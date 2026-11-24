@@ -1,0 +1,58 @@
+=== start 2026-11-23 08:51:39
+IDs: ['e61', 'u7y', 'ngh']
+  inferred e61 seed 0: 22225 windows, 3 calibration events
+  inferred e61 seed 1: 22225 windows, 3 calibration events
+  inferred e61 seed 2: 22225 windows, 3 calibration events
+  inferred e61 seed 3: 22225 windows, 3 calibration events
+  inferred e61 seed 4: 22225 windows, 3 calibration events
+  inferred u7y seed 0: 23853 windows, 3 calibration events
+  inferred u7y seed 1: 23853 windows, 3 calibration events
+  inferred u7y seed 2: 23853 windows, 3 calibration events
+  inferred u7y seed 3: 23853 windows, 3 calibration events
+  inferred u7y seed 4: 23853 windows, 3 calibration events
+  inferred ngh seed 0: 26437 windows, 3 calibration events
+  inferred ngh seed 1: 26437 windows, 3 calibration events
+  inferred ngh seed 2: 26437 windows, 3 calibration events
+  inferred ngh seed 3: 26437 windows, 3 calibration events
+  inferred ngh seed 4: 26437 windows, 3 calibration events
+inference done
+  analysed: H_K
+  analysed: H_K1
+  analysed: p_order
+  analysed: descriptive_drift
+  analysed: covariates
+  analysed: H_R
+  analysed: FAR
+  analysed: sensitivity
+  analysed: masking
+  analysed: ACI_bound
+  analysed: contamination
+  analysed: coverage
+[H-K] branch = not rejected; Y2 not rejected | because X2 quantile -0.22 ≤ 0, Y2 quantile -1.91 ≤ 0
+[H-K1] branch = not tested (fixed sequence) | because H-K not rejected
+[attribution] branch = not applied | because H-K not rejected
+[H-R] branch = not rejected | because t p 0.174 ≥ 0.05
+[R vs R-thin] branch = CI contains 0 | because 90 % CI [-0.33, 0.31] contains 0
+done in 731 s (inference 720 s); results sha256 94ac3a08324b9d54261dbcc8195582713e2d8693ee1ccef921730bff27e0db7e
+=== start 2026-11-23 11:07:34
+IDs: ['e61', 'u7y', 'ngh']
+rerun: 15 completed arrays reused: ['e61_seed0.npz', 'e61_seed1.npz', 'e61_seed2.npz', 'e61_seed3.npz', 'e61_seed4.npz', 'ngh_seed0.npz', 'ngh_seed1.npz', 'ngh_seed2.npz', 'ngh_seed3.npz', 'ngh_seed4.npz', 'u7y_seed0.npz', 'u7y_seed1.npz', 'u7y_seed2.npz', 'u7y_seed3.npz', 'u7y_seed4.npz']
+inference done
+  analysed: H_K
+  analysed: H_K1
+  analysed: p_order
+  analysed: descriptive_drift
+  analysed: covariates
+  analysed: H_R
+  analysed: FAR
+  analysed: sensitivity
+  analysed: masking
+  analysed: ACI_bound
+  analysed: contamination
+  analysed: coverage
+[H-K] branch = not rejected; Y2 not rejected | because X2 quantile -0.22 ≤ 0, Y2 quantile -1.91 ≤ 0
+[H-K1] branch = not tested (fixed sequence) | because H-K not rejected
+[attribution] branch = not applied | because H-K not rejected
+[H-R] branch = not rejected | because t p 0.174 ≥ 0.05
+[R vs R-thin] branch = CI contains 0 | because 90 % CI [-0.33, 0.31] contains 0
+done in 11 s (inference 0 s); results sha256 94ac3a08324b9d54261dbcc8195582713e2d8693ee1ccef921730bff27e0db7e

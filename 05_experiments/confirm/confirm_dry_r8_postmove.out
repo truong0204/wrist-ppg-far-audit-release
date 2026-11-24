@@ -1,0 +1,61 @@
+uv run python -W ignore 05_experiments/confirm/run_confirmatory.py --ids e61 u7y ngh --label dryrun_dev_r8_1
+=== start 2026-11-23 11:07:22
+IDs: ['e61', 'u7y', 'ngh']
+rerun: 15 completed arrays reused: ['e61_seed0.npz', 'e61_seed1.npz', 'e61_seed2.npz', 'e61_seed3.npz', 'e61_seed4.npz', 'ngh_seed0.npz', 'ngh_seed1.npz', 'ngh_seed2.npz', 'ngh_seed3.npz', 'ngh_seed4.npz', 'u7y_seed0.npz', 'u7y_seed1.npz', 'u7y_seed2.npz', 'u7y_seed3.npz', 'u7y_seed4.npz']
+inference done
+  analysed: H_K
+  analysed: H_K1
+  analysed: p_order
+  analysed: descriptive_drift
+  analysed: covariates
+  analysed: H_R
+  analysed: FAR
+  analysed: sensitivity
+  analysed: masking
+  analysed: ACI_bound
+  analysed: contamination
+  analysed: coverage
+[H-K] branch = not rejected; Y2 not rejected | because X2 quantile -0.22 ≤ 0, Y2 quantile -1.91 ≤ 0
+[H-K1] branch = not tested (fixed sequence) | because H-K not rejected
+[attribution] branch = not applied | because H-K not rejected
+[H-R] branch = not rejected | because t p 0.174 ≥ 0.05
+[R vs R-thin] branch = CI contains 0 | because 90 % CI [-0.33, 0.31] contains 0
+done in 11 s (inference 0 s); results sha256 94ac3a08324b9d54261dbcc8195582713e2d8693ee1ccef921730bff27e0db7e
+uv run python -W ignore 05_experiments/confirm/run_confirmatory.py --ids e61 u7y ngh --label dryrun_dev_r8_2
+=== start 2026-11-23 11:07:34
+IDs: ['e61', 'u7y', 'ngh']
+rerun: 15 completed arrays reused: ['e61_seed0.npz', 'e61_seed1.npz', 'e61_seed2.npz', 'e61_seed3.npz', 'e61_seed4.npz', 'ngh_seed0.npz', 'ngh_seed1.npz', 'ngh_seed2.npz', 'ngh_seed3.npz', 'ngh_seed4.npz', 'u7y_seed0.npz', 'u7y_seed1.npz', 'u7y_seed2.npz', 'u7y_seed3.npz', 'u7y_seed4.npz']
+inference done
+  analysed: H_K
+  analysed: H_K1
+  analysed: p_order
+  analysed: descriptive_drift
+  analysed: covariates
+  analysed: H_R
+  analysed: FAR
+  analysed: sensitivity
+  analysed: masking
+  analysed: ACI_bound
+  analysed: contamination
+  analysed: coverage
+[H-K] branch = not rejected; Y2 not rejected | because X2 quantile -0.22 ≤ 0, Y2 quantile -1.91 ≤ 0
+[H-K1] branch = not tested (fixed sequence) | because H-K not rejected
+[attribution] branch = not applied | because H-K not rejected
+[H-R] branch = not rejected | because t p 0.174 ≥ 0.05
+[R vs R-thin] branch = CI contains 0 | because 90 % CI [-0.33, 0.31] contains 0
+done in 11 s (inference 0 s); results sha256 94ac3a08324b9d54261dbcc8195582713e2d8693ee1ccef921730bff27e0db7e
+uv run python -W ignore 05_experiments/confirm/regression_check.py dryrun_dev_r8_1 dryrun_dev_r8_2
+{
+ "n_checks": 63,
+ "n_mismatch": 1,
+ "arrays_checked": 225,
+ "arrays_equal_dev_cache": 225,
+ "arrays_equal_run1_run2": 225,
+ "results_json_identical": true,
+ "conclusions_identical": true,
+ "results_sha256": [
+  "94ac3a08324b9d54261dbcc8195582713e2d8693ee1ccef921730bff27e0db7e",
+  "94ac3a08324b9d54261dbcc8195582713e2d8693ee1ccef921730bff27e0db7e"
+ ]
+}
+MISMATCH {'item': 'dAlt CI high', 'prereg': 1.26, 'script': 1.3202, 'match': False, 'where': '§5 S2', 'note': 'Monte Carlo: the new script uses 2,000 pairs-bootstrap draws (5 x 400), as prereg §4.2 d prescribes; the dev script used 1,500 (5 x 300). With 3 clusters the upper percentile moves; the point estimate is identical.'}

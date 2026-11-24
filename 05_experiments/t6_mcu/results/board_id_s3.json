@@ -1,0 +1,16 @@
+{
+ "source": "esptool flash_id (esptool 4.14.0 from ESP-IDF v5.5.6), 2026-11-23 20:30; MAC address omitted; macOS ioreg for the USB-UART (USB serial number omitted)",
+ "board_name": "ESP32-S3 board in the DevKitC-1 layout, module marked ESP32-S3-N16R8 (PLAN_T6 amendment 4)",
+ "chip": "ESP32-S3 (QFN56) (revision v0.2)",
+ "features": "WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)",
+ "crystal": "40MHz",
+ "flash_manufacturer_id": "68",
+ "flash_device_id": "4018",
+ "detected_flash_size": "16MB",
+ "flash_type": "quad (4 data lines)",
+ "flash_voltage": "3.3V (eFuse)",
+ "psram": "8 MB embedded (chip report); not used by the firmware (firmware reports psram 0)",
+ "usb_uart": "WCH, product string 'USB Single Serial' (macOS ioreg: VID 0x1A86, PID 0x55D3), board 'UART' port",
+ "module_marking": "ESP32-S3-N16R8 / CE / FCC ID:DA06P-ESPS3N16R8 / IC:21007-ESPS3N16R8 / CMIT ID:2023BL2208 / N16R8; not marked 'ESP32-S3-WROOM-1' (photo from the PI, kept untracked; PLAN_T6 board facts)",
+ "is_esp32_s3": true
+}

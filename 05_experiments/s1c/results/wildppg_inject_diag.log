@@ -1,0 +1,25 @@
+e61 done
+u7y done
+ngh done
+e61 20 37 raw 18.9 argmax 18.9 hmm3 19.8 hmm6 19.8 hmm12 19.8 | pre_err 0.8 pre_iqr 4.1 ref_pre 82
+e61 30 37 raw 24.7 argmax 26.4 hmm3 28.0 hmm6 27.2 hmm12 26.4 | pre_err 0.5 pre_iqr 4.1 ref_pre 85
+e61 40 37 raw 34.6 argmax 37.9 hmm3 38.7 hmm6 38.7 hmm12 38.7 | pre_err 0.5 pre_iqr 4.1 ref_pre 81
+u7y 20 39 raw 1.6 argmax 11.5 hmm3 4.1 hmm6 8.2 hmm12 9.1 | pre_err 3.6 pre_iqr 15.6 ref_pre 65
+u7y 30 39 raw -1.6 argmax 4.1 hmm3 -0.8 hmm6 0.0 hmm12 3.3 | pre_err 4.4 pre_iqr 17.3 ref_pre 67
+u7y 40 39 raw 0.0 argmax 4.1 hmm3 2.5 hmm6 5.8 hmm12 6.6 | pre_err 5.9 pre_iqr 19.8 ref_pre 66
+ngh 20 44 raw 9.9 argmax 14.4 hmm3 14.8 hmm6 16.1 hmm12 15.6 | pre_err 2.1 pre_iqr 12.4 ref_pre 66
+ngh 30 44 raw 5.4 argmax 15.2 hmm3 18.5 hmm6 14.8 hmm12 15.2 | pre_err 1.8 pre_iqr 14.4 ref_pre 66
+ngh 40 44 raw 1.2 argmax 5.8 hmm3 3.3 hmm6 2.5 hmm12 5.4 | pre_err 1.4 pre_iqr 12.8 ref_pre 68
+recovered>=half | pre_err<5: 0.63 (n=259); | pre_err>=5: 0.22 (n=101)
+SQI>=q0.00 (0.007): windows kept 1.00 | +20 n=120 median 16.1 frac>=half 0.61
+SQI>=q0.00 (0.007): windows kept 1.00 | +30 n=120 median 14.8 frac>=half 0.49
+SQI>=q0.00 (0.007): windows kept 1.00 | +40 n=120 median 9.5 frac>=half 0.44
+  kept per ID: {'e61': 1.0, 'u7y': 1.0, 'ngh': 1.0}
+SQI>=q0.25 (0.038): windows kept 0.75 | +20 n=105 median 17.3 frac>=half 0.68
+SQI>=q0.25 (0.038): windows kept 0.75 | +30 n=102 median 22.6 frac>=half 0.54
+SQI>=q0.25 (0.038): windows kept 0.75 | +40 n=98 median 28.0 frac>=half 0.52
+  kept per ID: {'e61': 0.89, 'u7y': 0.62, 'ngh': 0.75}
+SQI>=q0.50 (0.065): windows kept 0.50 | +20 n=59 median 18.1 frac>=half 0.88
+SQI>=q0.50 (0.065): windows kept 0.50 | +30 n=67 median 28.0 frac>=half 0.73
+SQI>=q0.50 (0.065): windows kept 0.50 | +40 n=64 median 37.1 frac>=half 0.69
+  kept per ID: {'e61': 0.72, 'u7y': 0.34, 'ngh': 0.46}

@@ -1,0 +1,199 @@
+{
+ "source": "emul",
+ "threshold_block_score_bpm": 0.41,
+ "persons": {
+  "e61": {
+   "n_windows_float": 22225,
+   "n_windows_device": 22225,
+   "dHR_all": {
+    "median": 0.0,
+    "p99": 2.4705886840820312,
+    "max": 92.23529052734375
+   },
+   "dHR_monitored_both": {
+    "median": 0.0,
+    "p99": 2.4705848693847656,
+    "max": 92.23529052734375
+   },
+   "frac_dHR_nonzero": 0.2711811023622047,
+   "monitored_flag_differs": 103,
+   "state_differs": 0,
+   "device_block_code_vs_python_on_device_outputs": {
+    "records": 69,
+    "python_blocks": 69,
+    "mismatches": 0
+   },
+   "blocks": {
+    "compared": 69,
+    "differ": 21,
+    "steps": {
+     "0": 48,
+     "1": 21,
+     "2": 0,
+     ">=3": 0
+    },
+    "only_one_side": 0
+   },
+   "K": {
+    "test_blocks": 51,
+    "decisions_differ": 0,
+    "test_blocks_one_side_only": 0,
+    "tau_differs": 20,
+    "max_abs_dtau": 0.8235244750976562,
+    "tau_per_state": {
+     "0": {
+      "float": 103.29412078857422,
+      "device": 104.11764526367188
+     },
+     "1": {
+      "float": 126.35294342041016,
+      "device": 126.35294342041016
+     },
+     "2": {
+      "float": 143.64706420898438,
+      "device": 143.64706420898438
+     }
+    }
+   },
+   "R": {
+    "test_blocks": 48,
+    "decisions_differ": 0,
+    "test_blocks_one_side_only": 0,
+    "tau_differs": 4,
+    "max_abs_dtau": 0.8235244750976562
+   }
+  },
+  "u7y": {
+   "n_windows_float": 23853,
+   "n_windows_device": 23853,
+   "dHR_all": {
+    "median": 0.0,
+    "p99": 4.941175384521484,
+    "max": 50.23529052734375
+   },
+   "dHR_monitored_both": {
+    "median": 0.0,
+    "p99": 4.117649078369141,
+    "max": 42.0
+   },
+   "frac_dHR_nonzero": 0.2922902779524588,
+   "monitored_flag_differs": 365,
+   "state_differs": 0,
+   "device_block_code_vs_python_on_device_outputs": {
+    "records": 59,
+    "python_blocks": 59,
+    "mismatches": 0
+   },
+   "blocks": {
+    "compared": 59,
+    "differ": 29,
+    "steps": {
+     "0": 30,
+     "1": 13,
+     "2": 3,
+     ">=3": 13
+    },
+    "only_one_side": 0
+   },
+   "K": {
+    "test_blocks": 41,
+    "decisions_differ": 6,
+    "test_blocks_one_side_only": 0,
+    "tau_differs": 0,
+    "max_abs_dtau": 0.0,
+    "tau_per_state": {
+     "0": {
+      "float": 147.76470947265625,
+      "device": 147.76470947265625
+     },
+     "1": {
+      "float": 74.47058868408203,
+      "device": 74.47058868408203
+     },
+     "2": {
+      "float": 132.94117736816406,
+      "device": 132.94117736816406
+     }
+    }
+   },
+   "R": {
+    "test_blocks": 38,
+    "decisions_differ": 4,
+    "test_blocks_one_side_only": 0,
+    "tau_differs": 14,
+    "max_abs_dtau": 15.647056579589844
+   }
+  },
+  "ngh": {
+   "n_windows_float": 26437,
+   "n_windows_device": 26437,
+   "dHR_all": {
+    "median": 0.0,
+    "p99": 3.2941207885742188,
+    "max": 51.88235092163086
+   },
+   "dHR_monitored_both": {
+    "median": 0.0,
+    "p99": 3.294116973876953,
+    "max": 51.88235092163086
+   },
+   "frac_dHR_nonzero": 0.2741233876763627,
+   "monitored_flag_differs": 280,
+   "state_differs": 0,
+   "device_block_code_vs_python_on_device_outputs": {
+    "records": 75,
+    "python_blocks": 75,
+    "mismatches": 0
+   },
+   "blocks": {
+    "compared": 75,
+    "differ": 40,
+    "steps": {
+     "0": 35,
+     "1": 17,
+     "2": 2,
+     ">=3": 21
+    },
+    "only_one_side": 0
+   },
+   "K": {
+    "test_blocks": 57,
+    "decisions_differ": 1,
+    "test_blocks_one_side_only": 0,
+    "tau_differs": 10,
+    "max_abs_dtau": 7.411766052246094,
+    "tau_per_state": {
+     "0": {
+      "float": 114.82353210449219,
+      "device": 114.82353210449219
+     },
+     "1": {
+      "float": 79.4117660522461,
+      "device": 79.4117660522461
+     },
+     "2": {
+      "float": 92.5882339477539,
+      "device": 85.17646789550781
+     }
+    }
+   },
+   "R": {
+    "test_blocks": 54,
+    "decisions_differ": 4,
+    "test_blocks_one_side_only": 0,
+    "tau_differs": 31,
+    "max_abs_dtau": 48.588226318359375
+   }
+  }
+ },
+ "pooled": {
+  "K": {
+   "decisions_differ": 7,
+   "test_blocks": 149
+  },
+  "R": {
+   "decisions_differ": 8,
+   "test_blocks": 140
+  }
+ }
+}

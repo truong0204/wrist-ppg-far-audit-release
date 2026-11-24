@@ -1,0 +1,68 @@
+{
+ "e61": {
+  "info": {
+   "ok": 1,
+   "idf": "v5.5.6",
+   "cpu_mhz": 240,
+   "esp_nn": "optimized",
+   "opt": "perf(-O2)",
+   "arena_bytes": 98304,
+   "arena_used": 34140,
+   "model_bytes": 18272,
+   "in_type": 9,
+   "out_type": 9,
+   "psram": 0,
+   "free_heap": 218824
+  },
+  "end": {
+   "min_free_heap": 218808,
+   "stack_hwm_bytes": 13620,
+   "arena_used": 34140,
+   "windows": 1800
+  }
+ },
+ "u7y": {
+  "info": {
+   "ok": 1,
+   "idf": "v5.5.6",
+   "cpu_mhz": 240,
+   "esp_nn": "optimized",
+   "opt": "perf(-O2)",
+   "arena_bytes": 98304,
+   "arena_used": 34140,
+   "model_bytes": 18272,
+   "in_type": 9,
+   "out_type": 9,
+   "psram": 0,
+   "free_heap": 218824
+  },
+  "end": {
+   "min_free_heap": 218808,
+   "stack_hwm_bytes": 13620,
+   "arena_used": 34140,
+   "windows": 1800
+  }
+ },
+ "ngh": {
+  "info": {
+   "ok": 1,
+   "idf": "v5.5.6",
+   "cpu_mhz": 240,
+   "esp_nn": "optimized",
+   "opt": "perf(-O2)",
+   "arena_bytes": 98304,
+   "arena_used": 34140,
+   "model_bytes": 18272,
+   "in_type": 9,
+   "out_type": 9,
+   "psram": 0,
+   "free_heap": 218824
+  },
+  "end": {
+   "min_free_heap": 218808,
+   "stack_hwm_bytes": 13620,
+   "arena_used": 34140,
+   "windows": 1800
+  }
+ }
+}

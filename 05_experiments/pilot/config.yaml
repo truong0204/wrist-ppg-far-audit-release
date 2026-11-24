@@ -1,0 +1,20 @@
+# Pilot configuration — frozen by the prereg commit (05_experiments/prereg.md §P).
+subjects: [S10, S11, S12]          # first three complete subjects in archive order (logistics rule, §P1)
+threshold_bpm: 120                 # B0 and reference event threshold
+event:
+  k_min_windows: 3                 # episode must span >= 3 windows (>= 12 s)
+  merge_gap_windows: 5             # runs separated by <= 5 negative windows (10 s) are one episode
+  match_tolerance_s: 10            # alarm overlapping a reference episode widened by +-10 s is a true alarm
+b2:
+  alphas: [0.05, 0.01]             # primary 0.05, secondary 0.01
+  calibration: loso_within_pilot   # calibrate on the other two pilot subjects, all windows
+gate_g1:
+  far_b0_min_per_hour: 0.1
+  min_reference_episodes_full_dataset: 20
+alternative_events_label_only:     # counted on HR-ECG labels only, reported if G1 stops
+  - {name: "HR>100", threshold_bpm: 100}
+  - {name: "HR>110", threshold_bpm: 110}
+  - {name: "HR>120", threshold_bpm: 120}
+  - {name: "HR>130", threshold_bpm: 130}
+  - {name: "HR>sit+30", relative_to_sitting_median_bpm: 30}
+  - {name: "HR>sit+40", relative_to_sitting_median_bpm: 40}

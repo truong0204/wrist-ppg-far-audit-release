@@ -1,0 +1,30 @@
+{
+ "tf_version": "2.21.0",
+ "tflite_bytes": 24472,
+ "ops": [
+  "ADD",
+  "CONV_2D",
+  "RESHAPE"
+ ],
+ "output_quantization": [
+  0.07260707765817642,
+  66
+ ],
+ "identical_windows": {
+  "e61": {
+   "n": 22225,
+   "c_core_inputs": 22225,
+   "python_inputs": 22225
+  },
+  "u7y": {
+   "n": 23853,
+   "c_core_inputs": 23853,
+   "python_inputs": 23853
+  },
+  "ngh": {
+   "n": 26437,
+   "c_core_inputs": 26437,
+   "python_inputs": 26437
+  }
+ }
+}

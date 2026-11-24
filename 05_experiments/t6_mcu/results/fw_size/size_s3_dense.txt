@@ -1,0 +1,37 @@
+# paths redacted 2026-11-23 (PI decision C(a)): absolute prefix of the repository replaced by <repo>/; numbers unchanged
+Executing action: size
+Running ninja in directory <repo>/06_firmware/h32_e2/build_s3
+Executing "ninja all"...
+[1/4] cd <repo>/06_firmware/h32_e2/build_s3/esp-idf/esptool_py && <repo>/06_firmware/.espressif/python_env/idf5.5_py3.12_env/bin/python <repo>/06_firmware/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app <repo>/06_firmware/h32_e2/build_s3/partition_table/partition-table.bin <repo>/06_firmware/h32_e2/build_s3/h32_e2.bin
+h32_e2.bin binary size 0x4bea0 bytes. Smallest app partition is 0x100000 bytes. 0xb4160 bytes (70%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd <repo>/06_firmware/h32_e2/build_s3/bootloader/esp-idf/esptool_py && <repo>/06_firmware/.espressif/python_env/idf5.5_py3.12_env/bin/python <repo>/06_firmware/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 <repo>/06_firmware/h32_e2/build_s3/bootloader/bootloader.bin
+Bootloader binary size 0x4fe0 bytes. 0x3020 bytes (38%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'
+Running ninja in directory <repo>/06_firmware/h32_e2/build_s3
+Executing "ninja size"...
+[0/1] cd <repo>/06_firmware/h32_e2/build_s3 && <repo>/06_firmware/.espressif/tools/cmake/3.30.2/CMake.app/Contents/bin/cmake -D "IDF_SIZE_TOOL=<repo>/06_firmware/.espressif/python_env/idf5.5_py3.12_env/bin/python;-m;esp_idf_size" -D MAP_FILE=<repo>/06_firmware/h32_e2/build_s3/h32_e2.map -D OUTPUT_JSON= -P <repo>/06_firmware/esp-idf/tools/cmake/run_size_tool.cmake
+                            Memory Type Usage Summary                             
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Memory Type/Section ┃ Used [bytes] ┃ Used [%] ┃ Remain [bytes] ┃ Total [bytes] ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ DIRAM               │       199639 │    58.41 │         142121 │        341760 │
+│    .bss             │       147584 │    43.18 │                │               │
+│    .text            │        41079 │    12.02 │                │               │
+│    .data            │        10976 │     3.21 │                │               │
+│ Flash Code          │       165148 │          │                │               │
+│    .text            │       165148 │          │                │               │
+│ Flash Data          │        77212 │          │                │               │
+│    .rodata          │        76956 │          │                │               │
+│    .appdesc         │          256 │          │                │               │
+│ IRAM                │        16384 │    100.0 │              0 │         16384 │
+│    .text            │        15356 │    93.73 │                │               │
+│    .vectors         │         1028 │     6.27 │                │               │
+│ RTC SLOW            │           32 │     0.39 │           8160 │          8192 │
+│    .force_slow      │           32 │     0.39 │                │               │
+│ RTC FAST            │           24 │     0.29 │           8168 │          8192 │
+│    .rtc_reserved    │           24 │     0.29 │                │               │
+└─────────────────────┴──────────────┴──────────┴────────────────┴───────────────┘
+Total image size: 310831 bytes (.bin may be padded larger)
+Note: The reported total sizes may be smaller than those in the technical reference manual due to reserved memory and application configuration. The total flash size available for the application is not included by default, as it cannot be reliably determined due to the presence of other data like the bootloader, partition table, and application partition size.

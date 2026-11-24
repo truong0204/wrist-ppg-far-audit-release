@@ -1,0 +1,38 @@
+{
+ "tf_version": "2.21.0",
+ "tflite_bytes": 18272,
+ "float_tflite_bytes": 50044,
+ "ops": [
+  "ADD",
+  "CONV_2D",
+  "RESHAPE"
+ ],
+ "input": {
+  "shape": [
+   1,
+   256,
+   4
+  ],
+  "dtype": "<class 'numpy.int8'>",
+  "scale": 0.003921568859368563,
+  "zero_point": -128
+ },
+ "output": {
+  "shape": [
+   1,
+   256
+  ],
+  "dtype": "<class 'numpy.int8'>",
+  "scale": 0.07260707765817642,
+  "zero_point": 66
+ },
+ "q0_max_abs_logit_keras_vs_torch": {
+  "dalia_S10": 6.67572021484375e-06,
+  "dalia_S11": 5.7220458984375e-06,
+  "dalia_S12": 6.67572021484375e-06,
+  "wild_e61": 6.67572021484375e-06,
+  "wild_u7y": 6.67572021484375e-06,
+  "wild_ngh": 6.67572021484375e-06
+ },
+ "calib_windows": 500
+}

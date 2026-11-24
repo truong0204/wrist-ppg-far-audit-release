@@ -1,0 +1,10 @@
+e61
+u7y
+ngh
+S10
+S11
+S12
+WildPPG pooled acf lag1..3: {1: 0.206, 2: 0.137, 3: 0.077} | mean blocks per (ID, state): {0: 22, 1: 33, 2: 14}
+DaLiA pooled acf lag1..3: {1: -0.151, 2: 0.09, 3: -0.152} | mean blocks per (ID, state): {0: 5, 1: 4, 2: 7}
+all pooled acf lag1..3: {1: 0.159, 2: 0.132, 3: 0.062} | mean blocks per (ID, state): {0: 15, 1: 26, 2: 11}
+m_hat = 0 (rule: pooled acf < 0.20 for all lags > m)

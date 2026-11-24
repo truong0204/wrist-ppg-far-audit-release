@@ -1,0 +1,53 @@
+m=0 n= 6 ( 60 min) T=30 | default k*=5 FAR<=4.40/h (E 1.71) | PAC: none
+m=0 n= 6 ( 60 min) T=60 | default k*=5 FAR<=4.10/h (E 1.71) | PAC: none
+m=0 n=12 (120 min) T=30 | default k*=9 FAR<=4.00/h (E 1.85) | PAC: k*=12/12 FAR<=2.00/h, E[FAR] 0.46
+m=0 n=12 (120 min) T=60 | default k*=9 FAR<=3.80/h (E 1.85) | PAC: k*=12/12 FAR<=1.90/h, E[FAR] 0.46
+m=0 n=18 (180 min) T=30 | default k*=13 FAR<=3.80/h (E 1.89) | PAC: k*=18/18 FAR<=1.60/h, E[FAR] 0.32
+m=0 n=18 (180 min) T=60 | default k*=13 FAR<=3.60/h (E 1.89) | PAC: k*=17/18 FAR<=2.00/h, E[FAR] 0.63
+m=0 n=24 (240 min) T=30 | default k*=17 FAR<=3.80/h (E 1.92) | PAC: k*=23/24 FAR<=1.80/h, E[FAR] 0.48
+m=0 n=24 (240 min) T=60 | default k*=17 FAR<=3.50/h (E 1.92) | PAC: k*=22/24 FAR<=2.00/h, E[FAR] 0.72
+m=0 n=36 (360 min) T=30 | default k*=25 FAR<=3.60/h (E 1.95) | PAC: k*=33/36 FAR<=2.00/h, E[FAR] 0.65
+m=0 n=36 (360 min) T=60 | default k*=25 FAR<=3.40/h (E 1.95) | PAC: k*=32/36 FAR<=2.00/h, E[FAR] 0.81
+m=0 n=48 (480 min) T=30 | default k*=33 FAR<=3.60/h (E 1.96) | PAC: k*=43/48 FAR<=2.00/h, E[FAR] 0.73
+m=0 n=48 (480 min) T=60 | default k*=33 FAR<=3.30/h (E 1.96) | PAC: k*=42/48 FAR<=1.90/h, E[FAR] 0.86
+m=1 n= 6 ( 60 min) T=30 | default k*=3 FAR<=5.20/h (E 1.50) | PAC: none
+m=1 n= 6 ( 60 min) T=60 | default k*=3 FAR<=4.80/h (E 1.50) | PAC: none
+m=1 n=12 (120 min) T=30 | default k*=5 FAR<=4.80/h (E 1.71) | PAC: none
+m=1 n=12 (120 min) T=60 | default k*=5 FAR<=4.60/h (E 1.71) | PAC: none
+m=1 n=18 (180 min) T=30 | default k*=7 FAR<=4.80/h (E 1.80) | PAC: none
+m=1 n=18 (180 min) T=60 | default k*=7 FAR<=4.40/h (E 1.80) | PAC: none
+m=1 n=24 (240 min) T=30 | default k*=9 FAR<=4.80/h (E 1.85) | PAC: none
+m=1 n=24 (240 min) T=60 | default k*=9 FAR<=4.20/h (E 1.85) | PAC: none
+m=1 n=36 (360 min) T=30 | default k*=13 FAR<=4.40/h (E 1.89) | PAC: k*=18/18 FAR<=2.00/h, E[FAR] 0.32
+m=1 n=36 (360 min) T=60 | default k*=13 FAR<=4.00/h (E 1.89) | PAC: k*=18/18 FAR<=1.80/h, E[FAR] 0.32
+m=1 n=48 (480 min) T=30 | default k*=17 FAR<=4.40/h (E 1.92) | PAC: k*=24/24 FAR<=1.60/h, E[FAR] 0.24
+m=1 n=48 (480 min) T=60 | default k*=17 FAR<=4.00/h (E 1.92) | PAC: k*=23/24 FAR<=2.00/h, E[FAR] 0.48
+m=2 n= 6 ( 60 min) T=30 | default k*=2 FAR<=6.00/h (E 2.00) | PAC: none
+m=2 n= 6 ( 60 min) T=60 | default k*=2 FAR<=5.70/h (E 2.00) | PAC: none
+m=2 n=12 (120 min) T=30 | default k*=4 FAR<=4.80/h (E 1.20) | PAC: none
+m=2 n=12 (120 min) T=60 | default k*=4 FAR<=4.50/h (E 1.20) | PAC: none
+m=2 n=18 (180 min) T=30 | default k*=5 FAR<=5.40/h (E 1.71) | PAC: none
+m=2 n=18 (180 min) T=60 | default k*=5 FAR<=4.80/h (E 1.71) | PAC: none
+m=2 n=24 (240 min) T=30 | default k*=7 FAR<=4.80/h (E 1.33) | PAC: none
+m=2 n=24 (240 min) T=60 | default k*=7 FAR<=4.20/h (E 1.33) | PAC: none
+m=2 n=36 (360 min) T=30 | default k*=9 FAR<=4.80/h (E 1.85) | PAC: none
+m=2 n=36 (360 min) T=60 | default k*=9 FAR<=4.50/h (E 1.85) | PAC: none
+m=2 n=48 (480 min) T=30 | default k*=12 FAR<=4.80/h (E 1.76) | PAC: none
+m=2 n=48 (480 min) T=60 | default k*=12 FAR<=4.20/h (E 1.76) | PAC: none
+
+Prop. 2a (rate form): P((60/L) p(tau) <= r) = I_a(n'+1-k*, k*)
+m=0 conf 0.90: n_min=6 blocks (60 min of that state), k*=6/6, E[rate]=0.86/h
+m=0 conf 0.95: n_min=8 blocks (80 min of that state), k*=8/8, E[rate]=0.67/h
+   m=0 n=12: k*=11/12, E[rate]=0.92/h (target 2)
+   m=0 n=24: k*=20/24, E[rate]=1.20/h (target 2)
+   m=0 n=36: k*=29/36, E[rate]=1.30/h (target 2)
+m=1 conf 0.90: n_min=11 blocks (110 min of that state), k*=6/6, E[rate]=0.86/h
+m=1 conf 0.95: n_min=15 blocks (150 min of that state), k*=8/8, E[rate]=0.67/h
+   m=1 n=12: k*=6/6, E[rate]=0.86/h (target 2)
+   m=1 n=24: k*=11/12, E[rate]=0.92/h (target 2)
+   m=1 n=36: k*=16/18, E[rate]=0.95/h (target 2)
+m=2 conf 0.90: n_min=16 blocks (160 min of that state), k*=6/6, E[rate]=0.86/h
+m=2 conf 0.95: n_min=22 blocks (220 min of that state), k*=8/8, E[rate]=0.67/h
+   m=2 n=12: none
+   m=2 n=24: k*=8/8, E[rate]=0.67/h (target 2)
+   m=2 n=36: k*=11/12, E[rate]=0.92/h (target 2)

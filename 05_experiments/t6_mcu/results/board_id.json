@@ -1,0 +1,16 @@
+{
+ "source": "esptool flash_id (esptool 4.14.0 from ESP-IDF v5.5.6), 2026-11-23; MAC address omitted",
+ "chip_type": "ESP32",
+ "chip": "ESP32-D0WD-V3 (revision v3.1)",
+ "features": "WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None",
+ "crystal": "40MHz",
+ "flash_manufacturer_id": "20",
+ "flash_device_id": "4016",
+ "detected_flash_size": "4MB",
+ "flash_voltage": "3.3V (strapping pin)",
+ "psram": "none (firmware reports psram 0)",
+ "usb_uart": "Silicon Labs CP2102 (macOS ioreg: VID 0x10C4, PID 0xEA60, 2026-11-23); the PI had described it as CH340 (PLAN_T6 board facts, correction of amendment 2)",
+ "buttons": "EN and BOOT (PI)",
+ "module_marking": "shield reads 'ESP-32', CE and FCC logos, and a line read as 'XX5R69' (uncertain); small lines not legible; not marked 'ESP-WROOM-32' (photo from the PI, kept untracked; PLAN_T6 board facts)",
+ "is_esp32_s3": false
+}

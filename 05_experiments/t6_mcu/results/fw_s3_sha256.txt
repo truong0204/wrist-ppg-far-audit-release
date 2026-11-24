@@ -1,0 +1,7 @@
+# SHA256 of the frozen ESP32-S3 firmware flashed for A-S3-1 and B (binaries kept untracked in 02_data/derived/t6/fw_s3_{orig,dense}; flash_args: --flash_mode dio --flash_freq 80m --flash_size 2MB)
+95e8b6c8260e405971ffc9542c498abde6cc1eedb2fc903e482591adf68aaaac  fw_s3_orig/h32_e2.bin
+b2676608de49d4f9dcc17fd5a74bc471059d87a545af6d3b759f3345dc2e8569  fw_s3_orig/bootloader/bootloader.bin
+7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820  fw_s3_orig/partition_table/partition-table.bin
+1550a334d7eee7ea5a16db6775f22efeb029c19cce024f98fbec4ce91cd6c819  fw_s3_dense/h32_e2.bin
+b1cc7d9ebb56f26ce228a842a2f9ca400167db15620ec7968ea981ae4adb825d  fw_s3_dense/bootloader/bootloader.bin
+7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820  fw_s3_dense/partition_table/partition-table.bin

@@ -1,0 +1,2369 @@
+{
+  "sigma_selected": {
+    "S10": 4.0,
+    "S11": 4.0,
+    "S12": 16.0
+  },
+  "mae_cnn_argmax": {
+    "S10": [
+      12.084091291269061,
+      13.01417663663784,
+      12.076645872138968,
+      13.29699523878524,
+      11.696811496319455
+    ],
+    "S11": [
+      24.527841004675444,
+      24.999217128690816,
+      25.21037874848165,
+      21.059683661052873,
+      22.95992811865963
+    ],
+    "S12": [
+      13.836049207125447,
+      12.379519406105551,
+      12.183507076074248,
+      14.11060909726984,
+      14.144242991533066
+    ]
+  },
+  "mae_e2": {
+    "S10": [
+      11.395980289997755,
+      12.171983940869065,
+      10.701970458704036,
+      12.329632814751275,
+      10.93838860563751
+    ],
+    "S11": [
+      24.36483638190266,
+      24.909061021146965,
+      24.79985816579249,
+      20.70732997221,
+      23.014907136236502
+    ],
+    "S12": [
+      13.953597847334727,
+      12.313812034485215,
+      12.072912328196182,
+      14.070371769455205,
+      14.353296487220033
+    ]
+  },
+  "kb": [
+    {
+      "seed": 0,
+      "n_fa": 0,
+      "far": 0.0,
+      "ci": [
+        0.0,
+        0.48098392013075586
+      ],
+      "det": 0,
+      "n_ref": 17,
+      "far_any": 0.0
+    },
+    {
+      "seed": 1,
+      "n_fa": 0,
+      "far": 0.0,
+      "ci": [
+        0.0,
+        0.48098392013075586
+      ],
+      "det": 0,
+      "n_ref": 17,
+      "far_any": 0.0
+    },
+    {
+      "seed": 2,
+      "n_fa": 0,
+      "far": 0.0,
+      "ci": [
+        0.0,
+        0.48098392013075586
+      ],
+      "det": 0,
+      "n_ref": 17,
+      "far_any": 0.0
+    },
+    {
+      "seed": 3,
+      "n_fa": 0,
+      "far": 0.0,
+      "ci": [
+        0.0,
+        0.48098392013075586
+      ],
+      "det": 0,
+      "n_ref": 17,
+      "far_any": 0.0
+    },
+    {
+      "seed": 4,
+      "n_fa": 0,
+      "far": 0.0,
+      "ci": [
+        0.0,
+        0.48098392013075586
+      ],
+      "det": 0,
+      "n_ref": 17,
+      "far_any": 0.0
+    }
+  ],
+  "injection": {
+    "20": {
+      "n_events": 105,
+      "recovered_median": 0.0,
+      "recovered_iqr": [
+        -2.0,
+        3.0
+      ],
+      "frac_ge_half": 0.0380952380952381,
+      "events": [
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 648.0,
+          "recovered": 1.0,
+          "ref_rise": 17.575909391984986
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 2772.0,
+          "recovered": -4.0,
+          "ref_rise": 29.3720252752707
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 3916.0,
+          "recovered": -1.0,
+          "ref_rise": 17.55994355869244
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 6450.0,
+          "recovered": 5.0,
+          "ref_rise": 18.803255255335074
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 7138.0,
+          "recovered": 4.0,
+          "ref_rise": 18.763939231793344
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 8302.0,
+          "recovered": 0.0,
+          "ref_rise": 19.25830482971952
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 8992.0,
+          "recovered": 3.0,
+          "ref_rise": 24.889101663785198
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 9800.0,
+          "recovered": 0.0,
+          "ref_rise": 18.275908325515204
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 586.0,
+          "recovered": 9.0,
+          "ref_rise": 18.249996722092668
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 1864.0,
+          "recovered": -2.0,
+          "ref_rise": 13.221381093372017
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 3268.0,
+          "recovered": -2.0,
+          "ref_rise": -14.472062772044524
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 4670.0,
+          "recovered": 2.0,
+          "ref_rise": 19.510227206413987
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 5662.0,
+          "recovered": -2.0,
+          "ref_rise": 20.81656141349599
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 6276.0,
+          "recovered": -5.0,
+          "ref_rise": 14.210825334478955
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 7488.0,
+          "recovered": 0.0,
+          "ref_rise": 19.675674200116916
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 9044.0,
+          "recovered": 1.0,
+          "ref_rise": 22.57810208996183
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 232.0,
+          "recovered": 4.0,
+          "ref_rise": 25.148168835087475
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 2764.0,
+          "recovered": 0.0,
+          "ref_rise": 28.06136250296592
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 3816.0,
+          "recovered": 0.0,
+          "ref_rise": 5.753582381618557
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 4632.0,
+          "recovered": 6.0,
+          "ref_rise": 19.95704457610148
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 6258.0,
+          "recovered": -4.0,
+          "ref_rise": 12.953454171544564
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 6888.0,
+          "recovered": -3.0,
+          "ref_rise": 18.531886241824523
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 8962.0,
+          "recovered": 5.0,
+          "ref_rise": 24.66265256178876
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 9832.0,
+          "recovered": 6.0,
+          "ref_rise": 23.658816812805156
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 904.0,
+          "recovered": 5.0,
+          "ref_rise": 21.193139263908797
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 2746.0,
+          "recovered": -4.0,
+          "ref_rise": 23.998053502894706
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 3988.0,
+          "recovered": 3.0,
+          "ref_rise": 16.720286881572093
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 4818.0,
+          "recovered": 1.0,
+          "ref_rise": 21.88354678933291
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 5980.0,
+          "recovered": 1.0,
+          "ref_rise": 21.88225831457511
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 7608.0,
+          "recovered": 6.0,
+          "ref_rise": 15.796544402219382
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 8300.0,
+          "recovered": 1.0,
+          "ref_rise": 19.31097230855589
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 9006.0,
+          "recovered": 2.0,
+          "ref_rise": 23.6973619228921
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 224.0,
+          "recovered": 2.0,
+          "ref_rise": 25.147064064790314
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 848.0,
+          "recovered": 2.0,
+          "ref_rise": 21.297561475540924
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 3936.0,
+          "recovered": -2.0,
+          "ref_rise": 17.984530253630467
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 4630.0,
+          "recovered": 5.0,
+          "ref_rise": 19.92347448766209
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 6010.0,
+          "recovered": 2.0,
+          "ref_rise": 20.100096010449718
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 7602.0,
+          "recovered": 1.0,
+          "ref_rise": 15.516903345487123
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 8824.0,
+          "recovered": -11.0,
+          "ref_rise": 21.12201439917999
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 9450.0,
+          "recovered": -2.0,
+          "ref_rise": 18.09953026574442
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 452.0,
+          "recovered": 10.0,
+          "ref_rise": 21.14746015190017
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 2154.0,
+          "recovered": -7.0,
+          "ref_rise": 29.217630300654093
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 4742.0,
+          "recovered": 1.0,
+          "ref_rise": 8.160882481295431
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 5828.0,
+          "recovered": -4.0,
+          "ref_rise": 14.370277537879076
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 6564.0,
+          "recovered": 0.0,
+          "ref_rise": 23.044403531077833
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 7770.0,
+          "recovered": -2.0,
+          "ref_rise": 8.505430317258487
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 8514.0,
+          "recovered": -1.0,
+          "ref_rise": 19.621630628994367
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 318.0,
+          "recovered": 10.0,
+          "ref_rise": 20.924459816294082
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 3672.0,
+          "recovered": 0.0,
+          "ref_rise": 26.873988486138288
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 4728.0,
+          "recovered": -3.0,
+          "ref_rise": 7.653240737960033
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 5640.0,
+          "recovered": 0.0,
+          "ref_rise": 20.91074857074696
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 6510.0,
+          "recovered": 1.0,
+          "ref_rise": 22.6893275312206
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 8158.0,
+          "recovered": -1.0,
+          "ref_rise": 11.446409427219038
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 8800.0,
+          "recovered": 3.0,
+          "ref_rise": 24.50757750906125
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 540.0,
+          "recovered": 13.0,
+          "ref_rise": 31.693614253028862
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 2060.0,
+          "recovered": 3.0,
+          "ref_rise": 10.110585569741588
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 3660.0,
+          "recovered": 2.0,
+          "ref_rise": 28.14376015653187
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 4422.0,
+          "recovered": -14.0,
+          "ref_rise": 7.533047369652877
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 5390.0,
+          "recovered": 1.0,
+          "ref_rise": 18.473503411207858
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 6224.0,
+          "recovered": 2.0,
+          "ref_rise": 19.469660466631993
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 8466.0,
+          "recovered": -4.0,
+          "ref_rise": 20.270492411498722
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 430.0,
+          "recovered": 5.0,
+          "ref_rise": 20.302986666738235
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 1316.0,
+          "recovered": 1.0,
+          "ref_rise": 11.409413371467423
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 4846.0,
+          "recovered": -4.0,
+          "ref_rise": 11.266356179379443
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 5584.0,
+          "recovered": 0.0,
+          "ref_rise": 21.114056966922504
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 6208.0,
+          "recovered": 3.0,
+          "ref_rise": 16.50703562471098
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 7910.0,
+          "recovered": -5.0,
+          "ref_rise": 14.24774737474084
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 8524.0,
+          "recovered": 0.0,
+          "ref_rise": 19.024420518981728
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 242.0,
+          "recovered": -12.0,
+          "ref_rise": 22.34131977719894
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 1324.0,
+          "recovered": 3.0,
+          "ref_rise": 11.877582567675617
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 2154.0,
+          "recovered": -5.0,
+          "ref_rise": 29.217630300654093
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 5124.0,
+          "recovered": -1.0,
+          "ref_rise": 17.28182852751023
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 5842.0,
+          "recovered": -5.0,
+          "ref_rise": 17.122607562061148
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 8200.0,
+          "recovered": -9.0,
+          "ref_rise": 10.897618118020048
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 8800.0,
+          "recovered": 2.0,
+          "ref_rise": 24.50757750906125
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 390.0,
+          "recovered": 8.0,
+          "ref_rise": 20.964082490376455
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 1458.0,
+          "recovered": 0.0,
+          "ref_rise": 15.7433992638842
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 4670.0,
+          "recovered": -2.0,
+          "ref_rise": 17.071054447753767
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 5510.0,
+          "recovered": 0.0,
+          "ref_rise": 13.820061685893208
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 6518.0,
+          "recovered": -14.0,
+          "ref_rise": -17.756306900927953
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 7262.0,
+          "recovered": 0.0,
+          "ref_rise": 20.902417178078217
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 264.0,
+          "recovered": 3.0,
+          "ref_rise": 18.749580016467604
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 2938.0,
+          "recovered": 0.0,
+          "ref_rise": 14.526930600559396
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 3682.0,
+          "recovered": 13.0,
+          "ref_rise": 36.21132604717149
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 5040.0,
+          "recovered": 0.0,
+          "ref_rise": 18.127359298108487
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 5684.0,
+          "recovered": 2.0,
+          "ref_rise": 20.747008781415772
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 7196.0,
+          "recovered": -1.0,
+          "ref_rise": 20.048120321567716
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 164.0,
+          "recovered": 0.0,
+          "ref_rise": 21.025190159395386
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 3306.0,
+          "recovered": 4.0,
+          "ref_rise": 20.835669823625565
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 4538.0,
+          "recovered": -1.0,
+          "ref_rise": 19.475020994216834
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 5760.0,
+          "recovered": 8.0,
+          "ref_rise": 31.512335586928742
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 6540.0,
+          "recovered": -10.0,
+          "ref_rise": -13.333897610824437
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 7152.0,
+          "recovered": 0.0,
+          "ref_rise": 17.577503425104375
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 1654.0,
+          "recovered": 7.0,
+          "ref_rise": 27.40718980025379
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 3090.0,
+          "recovered": 0.0,
+          "ref_rise": 17.325221909161186
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 4634.0,
+          "recovered": 1.0,
+          "ref_rise": 21.46157436977002
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 5536.0,
+          "recovered": 0.0,
+          "ref_rise": 13.763991964099901
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 6740.0,
+          "recovered": -5.0,
+          "ref_rise": 20.445888225652006
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 7528.0,
+          "recovered": 0.0,
+          "ref_rise": 23.08503030240677
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 614.0,
+          "recovered": 2.0,
+          "ref_rise": 43.199950826997984
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 3616.0,
+          "recovered": 5.0,
+          "ref_rise": 20.316212393385058
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 4514.0,
+          "recovered": 1.0,
+          "ref_rise": 19.27678959128447
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 5458.0,
+          "recovered": 0.0,
+          "ref_rise": 17.037472419988347
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 6568.0,
+          "recovered": 0.0,
+          "ref_rise": 16.56689675948256
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 7178.0,
+          "recovered": -4.0,
+          "ref_rise": 17.959649283751126
+        }
+      ]
+    },
+    "30": {
+      "n_events": 105,
+      "recovered_median": 1.0,
+      "recovered_iqr": [
+        0.0,
+        6.0
+      ],
+      "frac_ge_half": 0.047619047619047616,
+      "events": [
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 188.0,
+          "recovered": 4.0,
+          "ref_rise": 35.104826041130565
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 830.0,
+          "recovered": 5.0,
+          "ref_rise": 30.211229609153733
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 1954.0,
+          "recovered": 0.0,
+          "ref_rise": 28.159130958277018
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 3366.0,
+          "recovered": 6.0,
+          "ref_rise": 16.314951030468976
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 4196.0,
+          "recovered": 2.0,
+          "ref_rise": 31.151921136960524
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 6116.0,
+          "recovered": 5.0,
+          "ref_rise": 22.2616356290806
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 7244.0,
+          "recovered": 5.0,
+          "ref_rise": 28.698388181643196
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 9480.0,
+          "recovered": -1.0,
+          "ref_rise": 30.70216946031391
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 160.0,
+          "recovered": 8.0,
+          "ref_rise": 34.67008031467161
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 902.0,
+          "recovered": 8.0,
+          "ref_rise": 32.00159238499702
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 2590.0,
+          "recovered": -6.0,
+          "ref_rise": 26.174390294285374
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 4660.0,
+          "recovered": 2.0,
+          "ref_rise": 29.563118119203182
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 6496.0,
+          "recovered": 5.0,
+          "ref_rise": 29.006454149307785
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 7266.0,
+          "recovered": 5.0,
+          "ref_rise": 28.216522241772893
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 8298.0,
+          "recovered": 0.0,
+          "ref_rise": 29.564152112306786
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 9046.0,
+          "recovered": 1.0,
+          "ref_rise": 32.366867724171826
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 1064.0,
+          "recovered": 18.0,
+          "ref_rise": 44.190829857452975
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 2294.0,
+          "recovered": 13.0,
+          "ref_rise": 36.47973315762492
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 3182.0,
+          "recovered": -2.0,
+          "ref_rise": 17.939507061680303
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 4038.0,
+          "recovered": 6.0,
+          "ref_rise": 26.855633903531768
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 5668.0,
+          "recovered": -1.0,
+          "ref_rise": 30.75563288284569
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 6766.0,
+          "recovered": 3.0,
+          "ref_rise": 30.7731221161291
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 7474.0,
+          "recovered": 5.0,
+          "ref_rise": 31.16853060775236
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 9020.0,
+          "recovered": 7.0,
+          "ref_rise": 32.69773993909996
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 866.0,
+          "recovered": 0.0,
+          "ref_rise": 31.856380615442724
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 3770.0,
+          "recovered": -8.0,
+          "ref_rise": 17.96449666164547
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 4690.0,
+          "recovered": 5.0,
+          "ref_rise": 30.001678856079508
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 5450.0,
+          "recovered": 8.0,
+          "ref_rise": 29.871265289579384
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 6492.0,
+          "recovered": 10.0,
+          "ref_rise": 29.006454149307785
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 7338.0,
+          "recovered": 0.0,
+          "ref_rise": 28.69544008052347
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 9052.0,
+          "recovered": 1.0,
+          "ref_rise": 31.531878155705954
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 10344.0,
+          "recovered": -10.0,
+          "ref_rise": 19.655812024120138
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 998.0,
+          "recovered": 6.0,
+          "ref_rise": 34.63852131004061
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 2760.0,
+          "recovered": -3.0,
+          "ref_rise": 37.67773510889725
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 3372.0,
+          "recovered": 6.0,
+          "ref_rise": 16.16066763595981
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 4102.0,
+          "recovered": 2.0,
+          "ref_rise": 30.138377749449617
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 6706.0,
+          "recovered": 1.0,
+          "ref_rise": 31.614781825729494
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 7630.0,
+          "recovered": 7.0,
+          "ref_rise": 28.042771255622227
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 9272.0,
+          "recovered": -3.0,
+          "ref_rise": 28.915107850424832
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 10058.0,
+          "recovered": -2.0,
+          "ref_rise": 23.805825974855793
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 164.0,
+          "recovered": -4.0,
+          "ref_rise": 31.725811123601893
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 4530.0,
+          "recovered": -2.0,
+          "ref_rise": 28.460194929954866
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 5246.0,
+          "recovered": 1.0,
+          "ref_rise": 33.80522781497045
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 5956.0,
+          "recovered": 3.0,
+          "ref_rise": 40.359163788951406
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 6730.0,
+          "recovered": 8.0,
+          "ref_rise": 52.03647261147643
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 7850.0,
+          "recovered": -4.0,
+          "ref_rise": 20.304503540209836
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 8542.0,
+          "recovered": -3.0,
+          "ref_rise": 26.93708101311853
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 428.0,
+          "recovered": 6.0,
+          "ref_rise": 29.84262981139284
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 1386.0,
+          "recovered": -1.0,
+          "ref_rise": 36.1748780377477
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 3252.0,
+          "recovered": 0.0,
+          "ref_rise": 23.078530399419165
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 4944.0,
+          "recovered": 1.0,
+          "ref_rise": 33.11961167104694
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 6388.0,
+          "recovered": 0.0,
+          "ref_rise": 25.855013760093016
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 7682.0,
+          "recovered": 0.0,
+          "ref_rise": 13.34764068677778
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 8360.0,
+          "recovered": 0.0,
+          "ref_rise": 29.16137013739514
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 590.0,
+          "recovered": 12.0,
+          "ref_rise": 56.39632753787696
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 1766.0,
+          "recovered": 2.0,
+          "ref_rise": 36.4157254634396
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 2732.0,
+          "recovered": 7.0,
+          "ref_rise": 21.768185413936607
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 4994.0,
+          "recovered": 0.0,
+          "ref_rise": 28.177347944713503
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 5814.0,
+          "recovered": -2.0,
+          "ref_rise": 26.212916973977514
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 6426.0,
+          "recovered": 0.0,
+          "ref_rise": 29.186462856742097
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 8176.0,
+          "recovered": -6.0,
+          "ref_rise": 20.946683877442382
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 152.0,
+          "recovered": -4.0,
+          "ref_rise": 31.22302666893203
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 2142.0,
+          "recovered": -3.0,
+          "ref_rise": 37.83999769167622
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 4510.0,
+          "recovered": -2.0,
+          "ref_rise": 28.87905713313448
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 5540.0,
+          "recovered": 0.0,
+          "ref_rise": 26.463871247569017
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 6592.0,
+          "recovered": 0.0,
+          "ref_rise": 32.20005059818067
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 8104.0,
+          "recovered": 0.0,
+          "ref_rise": 26.922087737020945
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 8764.0,
+          "recovered": 0.0,
+          "ref_rise": 18.97975152282133
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 316.0,
+          "recovered": 9.0,
+          "ref_rise": 30.924459816294082
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 2668.0,
+          "recovered": 9.0,
+          "ref_rise": 4.469225354231412
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 3862.0,
+          "recovered": 6.0,
+          "ref_rise": 33.690965332335296
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 4852.0,
+          "recovered": -2.0,
+          "ref_rise": 21.557653969589992
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 5620.0,
+          "recovered": -1.0,
+          "ref_rise": 28.48530237698968
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 6474.0,
+          "recovered": 0.0,
+          "ref_rise": 30.287139522021093
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 8326.0,
+          "recovered": 2.0,
+          "ref_rise": 29.507423255957008
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 386.0,
+          "recovered": 8.0,
+          "ref_rise": 30.909672879848927
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 3676.0,
+          "recovered": 7.0,
+          "ref_rise": 44.148267709458
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 4956.0,
+          "recovered": 0.0,
+          "ref_rise": 29.87526225103248
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 5806.0,
+          "recovered": 16.0,
+          "ref_rise": 43.475880358801135
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 6686.0,
+          "recovered": -1.0,
+          "ref_rise": 29.324683624406923
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 7374.0,
+          "recovered": 2.0,
+          "ref_rise": 30.315949614339836
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 554.0,
+          "recovered": 3.0,
+          "ref_rise": 33.28678849875519
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 1514.0,
+          "recovered": 2.0,
+          "ref_rise": 25.899708228618294
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 2962.0,
+          "recovered": 1.0,
+          "ref_rise": 29.379710545065308
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 4576.0,
+          "recovered": 9.0,
+          "ref_rise": 30.187728561091035
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 5530.0,
+          "recovered": 1.0,
+          "ref_rise": 23.41150379737607
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 7102.0,
+          "recovered": 2.0,
+          "ref_rise": 30.20723195095554
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 200.0,
+          "recovered": 0.0,
+          "ref_rise": 30.34279765665338
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 3116.0,
+          "recovered": 2.0,
+          "ref_rise": 27.69042836973638
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 3734.0,
+          "recovered": 17.0,
+          "ref_rise": 43.304291870733465
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 4530.0,
+          "recovered": 1.0,
+          "ref_rise": 30.263808931976314
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 5170.0,
+          "recovered": -4.0,
+          "ref_rise": 29.013201288580632
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 7110.0,
+          "recovered": 0.0,
+          "ref_rise": 30.272054951411192
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 290.0,
+          "recovered": -10.0,
+          "ref_rise": 28.49080817261588
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 2454.0,
+          "recovered": -17.0,
+          "ref_rise": 9.33800708154358
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 3378.0,
+          "recovered": 2.0,
+          "ref_rise": 32.59296624342784
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 5484.0,
+          "recovered": -4.0,
+          "ref_rise": 25.10214656981853
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 6604.0,
+          "recovered": 4.0,
+          "ref_rise": 32.67568888834508
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 7204.0,
+          "recovered": 4.0,
+          "ref_rise": 30.069942539242497
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 158.0,
+          "recovered": 3.0,
+          "ref_rise": 30.567039097913245
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 1988.0,
+          "recovered": 0.0,
+          "ref_rise": 35.04177068599893
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 3304.0,
+          "recovered": 5.0,
+          "ref_rise": 30.861863201929637
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 4950.0,
+          "recovered": 6.0,
+          "ref_rise": 29.95078152495533
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 5770.0,
+          "recovered": 16.0,
+          "ref_rise": 41.637784682589924
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 6914.0,
+          "recovered": 18.0,
+          "ref_rise": 32.716175106349546
+        }
+      ]
+    },
+    "40": {
+      "n_events": 105,
+      "recovered_median": 1.0,
+      "recovered_iqr": [
+        0.0,
+        4.0
+      ],
+      "frac_ge_half": 0.0,
+      "events": [
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 696.0,
+          "recovered": 5.0,
+          "ref_rise": 39.29856776745724
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 1824.0,
+          "recovered": -5.0,
+          "ref_rise": 26.21202753802413
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 3306.0,
+          "recovered": 4.0,
+          "ref_rise": 10.032381234348634
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 4142.0,
+          "recovered": 1.0,
+          "ref_rise": 40.650202177150746
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 5974.0,
+          "recovered": 4.0,
+          "ref_rise": 41.69993627308848
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 6622.0,
+          "recovered": 0.0,
+          "ref_rise": 37.602726254702205
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 7308.0,
+          "recovered": 2.0,
+          "ref_rise": 37.25309434678731
+        },
+        {
+          "subject": "S10",
+          "seed": 0,
+          "t0": 9766.0,
+          "recovered": -2.0,
+          "ref_rise": 34.721956018331824
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 334.0,
+          "recovered": 2.0,
+          "ref_rise": 38.268947554402274
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 2656.0,
+          "recovered": 0.0,
+          "ref_rise": 38.93557553315793
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 3306.0,
+          "recovered": 5.0,
+          "ref_rise": 10.032381234348634
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 4280.0,
+          "recovered": 2.0,
+          "ref_rise": 40.237999636171224
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 5660.0,
+          "recovered": -4.0,
+          "ref_rise": 40.83223871550598
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 6892.0,
+          "recovered": 0.0,
+          "ref_rise": 38.53188624182452
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 7626.0,
+          "recovered": 7.0,
+          "ref_rise": 37.53393342662045
+        },
+        {
+          "subject": "S10",
+          "seed": 1,
+          "t0": 9552.0,
+          "recovered": 4.0,
+          "ref_rise": 41.977962791420296
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 246.0,
+          "recovered": 6.0,
+          "ref_rise": 46.92965275476284
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 862.0,
+          "recovered": -4.0,
+          "ref_rise": 41.61903706338591
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 1852.0,
+          "recovered": -9.0,
+          "ref_rise": 29.92086068824007
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 3192.0,
+          "recovered": -1.0,
+          "ref_rise": 20.54160073968663
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 4348.0,
+          "recovered": 0.0,
+          "ref_rise": 37.59116440612128
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 5932.0,
+          "recovered": -2.0,
+          "ref_rise": 39.70577538513842
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 9012.0,
+          "recovered": 7.0,
+          "ref_rise": 42.844314379310944
+        },
+        {
+          "subject": "S10",
+          "seed": 2,
+          "t0": 10196.0,
+          "recovered": 13.0,
+          "ref_rise": 51.683237915505615
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 3190.0,
+          "recovered": -7.0,
+          "ref_rise": 20.994365299515806
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 4424.0,
+          "recovered": 2.0,
+          "ref_rise": 40.35724096421342
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 5394.0,
+          "recovered": 0.0,
+          "ref_rise": 40.44389566884735
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 6018.0,
+          "recovered": 4.0,
+          "ref_rise": 39.40543059292831
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 6800.0,
+          "recovered": -1.0,
+          "ref_rise": 41.251979686428655
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 7628.0,
+          "recovered": 14.0,
+          "ref_rise": 37.712510405055326
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 9014.0,
+          "recovered": 4.0,
+          "ref_rise": 42.76761978447925
+        },
+        {
+          "subject": "S10",
+          "seed": 3,
+          "t0": 10170.0,
+          "recovered": 5.0,
+          "ref_rise": 53.62068467323023
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 568.0,
+          "recovered": 0.0,
+          "ref_rise": 38.04056472089577
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 1916.0,
+          "recovered": -4.0,
+          "ref_rise": 39.19503920160011
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 2746.0,
+          "recovered": -3.0,
+          "ref_rise": 43.99805350289472
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 4014.0,
+          "recovered": 2.0,
+          "ref_rise": 36.986413846551244
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 6368.0,
+          "recovered": 2.0,
+          "ref_rise": 35.17532950817335
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 7322.0,
+          "recovered": 0.0,
+          "ref_rise": 38.73090946768916
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 9510.0,
+          "recovered": 0.0,
+          "ref_rise": 42.3546533852666
+        },
+        {
+          "subject": "S10",
+          "seed": 4,
+          "t0": 10146.0,
+          "recovered": 6.0,
+          "ref_rise": 51.724157580374566
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 148.0,
+          "recovered": -4.0,
+          "ref_rise": 40.34920441441608
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 1326.0,
+          "recovered": 2.0,
+          "ref_rise": 32.26757143466661
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 3286.0,
+          "recovered": 0.0,
+          "ref_rise": 32.60563124549648
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 4764.0,
+          "recovered": 3.0,
+          "ref_rise": 26.744943119861546
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 5774.0,
+          "recovered": 0.0,
+          "ref_rise": 42.64583134245203
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 6620.0,
+          "recovered": 2.0,
+          "ref_rise": 39.44482771812555
+        },
+        {
+          "subject": "S11",
+          "seed": 0,
+          "t0": 8230.0,
+          "recovered": -7.0,
+          "ref_rise": 35.21038176758874
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 558.0,
+          "recovered": 12.0,
+          "ref_rise": 60.289463297189066
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 1500.0,
+          "recovered": 0.0,
+          "ref_rise": 44.336454271497544
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 3452.0,
+          "recovered": 1.0,
+          "ref_rise": 34.22260856900756
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 4810.0,
+          "recovered": -4.0,
+          "ref_rise": 24.700865014856404
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 5960.0,
+          "recovered": 1.0,
+          "ref_rise": 50.72338620089167
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 7878.0,
+          "recovered": -13.0,
+          "ref_rise": 28.36039750589262
+        },
+        {
+          "subject": "S11",
+          "seed": 1,
+          "t0": 8524.0,
+          "recovered": 0.0,
+          "ref_rise": 39.02442051898173
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 668.0,
+          "recovered": 17.0,
+          "ref_rise": 74.83995541816377
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 3840.0,
+          "recovered": 5.0,
+          "ref_rise": 42.258855543956216
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 4892.0,
+          "recovered": 2.0,
+          "ref_rise": 39.84439379585346
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 5832.0,
+          "recovered": -3.0,
+          "ref_rise": 34.6661069817108
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 6616.0,
+          "recovered": 5.0,
+          "ref_rise": 39.44482771812555
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 8128.0,
+          "recovered": 0.0,
+          "ref_rise": 36.41423018850429
+        },
+        {
+          "subject": "S11",
+          "seed": 2,
+          "t0": 8738.0,
+          "recovered": 0.0,
+          "ref_rise": 28.958863134765608
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 550.0,
+          "recovered": 14.0,
+          "ref_rise": 57.74843327048307
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 1386.0,
+          "recovered": 2.0,
+          "ref_rise": 46.1748780377477
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 3244.0,
+          "recovered": -3.0,
+          "ref_rise": 32.19072269510029
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 5654.0,
+          "recovered": 1.0,
+          "ref_rise": 43.47231076272601
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 6504.0,
+          "recovered": 3.0,
+          "ref_rise": 41.54371542690711
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 7792.0,
+          "recovered": -1.0,
+          "ref_rise": 27.13336664625902
+        },
+        {
+          "subject": "S11",
+          "seed": 3,
+          "t0": 8772.0,
+          "recovered": -1.0,
+          "ref_rise": 35.11444680604117
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 572.0,
+          "recovered": 18.0,
+          "ref_rise": 60.60512778138964
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 2670.0,
+          "recovered": 12.0,
+          "ref_rise": 14.66901265831686
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 3668.0,
+          "recovered": 0.0,
+          "ref_rise": 47.382314596088335
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 4680.0,
+          "recovered": -4.0,
+          "ref_rise": 38.77280547748215
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 5992.0,
+          "recovered": 1.0,
+          "ref_rise": 43.84646244119095
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 8036.0,
+          "recovered": 14.0,
+          "ref_rise": 40.54366582149298
+        },
+        {
+          "subject": "S11",
+          "seed": 4,
+          "t0": 8714.0,
+          "recovered": 12.0,
+          "ref_rise": 47.07410161810928
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 552.0,
+          "recovered": 10.0,
+          "ref_rise": 43.28678849875519
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 3090.0,
+          "recovered": 4.0,
+          "ref_rise": 37.325221909161186
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 4662.0,
+          "recovered": -2.0,
+          "ref_rise": 37.86260980990737
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 5352.0,
+          "recovered": 3.0,
+          "ref_rise": 38.348079572178094
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 6824.0,
+          "recovered": 11.0,
+          "ref_rise": 42.421872276619034
+        },
+        {
+          "subject": "S12",
+          "seed": 0,
+          "t0": 7508.0,
+          "recovered": 3.0,
+          "ref_rise": 41.49652767670884
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 482.0,
+          "recovered": 1.0,
+          "ref_rise": 41.3333950879311
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 3382.0,
+          "recovered": 0.0,
+          "ref_rise": 42.69300841744271
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 4852.0,
+          "recovered": 2.0,
+          "ref_rise": 43.05466050712948
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 5524.0,
+          "recovered": 1.0,
+          "ref_rise": 33.6507916746407
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 6694.0,
+          "recovered": -8.0,
+          "ref_rise": 39.51508619000447
+        },
+        {
+          "subject": "S12",
+          "seed": 1,
+          "t0": 7354.0,
+          "recovered": 1.0,
+          "ref_rise": 40.18892683304582
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 330.0,
+          "recovered": -2.0,
+          "ref_rise": 37.16976007895084
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 2040.0,
+          "recovered": -4.0,
+          "ref_rise": 48.98239083927071
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 2976.0,
+          "recovered": 4.0,
+          "ref_rise": 40.201220094539124
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 4646.0,
+          "recovered": 0.0,
+          "ref_rise": 40.34519142869998
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 5444.0,
+          "recovered": 1.0,
+          "ref_rise": 37.66685243496704
+        },
+        {
+          "subject": "S12",
+          "seed": 2,
+          "t0": 7286.0,
+          "recovered": 0.0,
+          "ref_rise": 40.8915145000904
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 148.0,
+          "recovered": 0.0,
+          "ref_rise": 40.567039097913245
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 3246.0,
+          "recovered": -2.0,
+          "ref_rise": 38.71958162503758
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 4826.0,
+          "recovered": 5.0,
+          "ref_rise": 43.281390370651565
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 5800.0,
+          "recovered": 11.0,
+          "ref_rise": 53.475880358801135
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 6620.0,
+          "recovered": 1.0,
+          "ref_rise": 43.02800292642281
+        },
+        {
+          "subject": "S12",
+          "seed": 3,
+          "t0": 7560.0,
+          "recovered": 0.0,
+          "ref_rise": 48.738857679370504
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 552.0,
+          "recovered": 3.0,
+          "ref_rise": 43.28678849875519
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 1998.0,
+          "recovered": 1.0,
+          "ref_rise": 46.2149764790195
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 3280.0,
+          "recovered": 3.0,
+          "ref_rise": 41.06875327369404
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 4534.0,
+          "recovered": 2.0,
+          "ref_rise": 39.64122195732452
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 5398.0,
+          "recovered": 1.0,
+          "ref_rise": 39.691381048455895
+        },
+        {
+          "subject": "S12",
+          "seed": 4,
+          "t0": 6934.0,
+          "recovered": 19.0,
+          "ref_rise": 42.693458134827424
+        }
+      ]
+    }
+  },
+  "published": {
+    "source": "Reiss 2019 Table 10/12",
+    "CNN_ensemble": {
+      "S10": 4.03,
+      "S11": 9.22,
+      "S12": 9.35
+    },
+    "SpaMaPlus": {
+      "S10": 6.17,
+      "S11": 15.15,
+      "S12": 12.03
+    },
+    "CNN_constrained_all": "9.99 \u00b1 5.9 (26K params)"
+  }
+}

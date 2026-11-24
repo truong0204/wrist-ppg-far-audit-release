@@ -1,0 +1,231 @@
+{
+ "windows_per_person": 1800,
+ "models": {
+  "dense": {
+   "persons": {
+    "e61": {
+     "windows": 1800,
+     "resends": 0,
+     "vs_esp32": {
+      "in_hash": 1800,
+      "logits": 1800,
+      "hr": 1800,
+      "sqi": 1800,
+      "st": 1800
+     },
+     "vs_esp32_all_five": 1800,
+     "vs_pc_int8": {
+      "input_hash_equal": 1549,
+      "logits_identical": 1557,
+      "logits_identical_given_equal_hash": "1549/1549"
+     },
+     "vs_pc_float": {
+      "dlogit": {
+       "median": 0.04928696155548096,
+       "p99": 0.1485262203216553,
+       "max": 1.0676422119140625
+      },
+      "argmax_equal": 1099,
+      "dHR": {
+       "median": 0.0,
+       "p99": 3.310591354370102,
+       "max": 62.58823776245117
+      },
+      "monitored_flag_differs": 15,
+      "state_differs": 0
+     }
+    },
+    "u7y": {
+     "windows": 1800,
+     "resends": 0,
+     "vs_esp32": {
+      "in_hash": 1800,
+      "logits": 1800,
+      "hr": 1800,
+      "sqi": 1800,
+      "st": 1800
+     },
+     "vs_esp32_all_five": 1800,
+     "vs_pc_int8": {
+      "input_hash_equal": 1551,
+      "logits_identical": 1560,
+      "logits_identical_given_equal_hash": "1551/1551"
+     },
+     "vs_pc_float": {
+      "dlogit": {
+       "median": 0.0457230806350708,
+       "p99": 0.1472034454345703,
+       "max": 0.9449295997619629
+      },
+      "argmax_equal": 1110,
+      "dHR": {
+       "median": 0.0,
+       "p99": 4.117645263671875,
+       "max": 37.88235092163086
+      },
+      "monitored_flag_differs": 26,
+      "state_differs": 0
+     }
+    },
+    "ngh": {
+     "windows": 1800,
+     "resends": 0,
+     "vs_esp32": {
+      "in_hash": 1800,
+      "logits": 1800,
+      "hr": 1800,
+      "sqi": 1800,
+      "st": 1800
+     },
+     "vs_esp32_all_five": 1800,
+     "vs_pc_int8": {
+      "input_hash_equal": 1503,
+      "logits_identical": 1510,
+      "logits_identical_given_equal_hash": "1503/1503"
+     },
+     "vs_pc_float": {
+      "dlogit": {
+       "median": 0.04771542549133301,
+       "p99": 0.14788776874542242,
+       "max": 0.460878849029541
+      },
+      "argmax_equal": 1113,
+      "dHR": {
+       "median": 0.0,
+       "p99": 4.9411773681640625,
+       "max": 44.4705924987793
+      },
+      "monitored_flag_differs": 29,
+      "state_differs": 0
+     }
+    }
+   },
+   "vs_esp32_all_five_total": "5400/5400",
+   "reduced_A_stop_condition_met": true
+  },
+  "orig": {
+   "persons": {
+    "e61": {
+     "windows": 1800,
+     "resends": 0,
+     "vs_esp32": {
+      "in_hash": 1800,
+      "logits": 1800,
+      "hr": 1800,
+      "sqi": 1800,
+      "st": 1800
+     },
+     "vs_esp32_all_five": 1800,
+     "vs_pc_int8": {
+      "input_hash_equal": 1549,
+      "logits_identical": 1557,
+      "logits_identical_given_equal_hash": "1549/1549"
+     },
+     "vs_pc_float": {
+      "dlogit": {
+       "median": 0.04928696155548096,
+       "p99": 0.1485262203216553,
+       "max": 1.0676422119140625
+      },
+      "argmax_equal": 1099,
+      "dHR": {
+       "median": 0.0,
+       "p99": 3.310591354370102,
+       "max": 62.58823776245117
+      },
+      "monitored_flag_differs": 15,
+      "state_differs": 0
+     }
+    },
+    "u7y": {
+     "windows": 1800,
+     "resends": 0,
+     "vs_esp32": {
+      "in_hash": 1800,
+      "logits": 1800,
+      "hr": 1800,
+      "sqi": 1800,
+      "st": 1800
+     },
+     "vs_esp32_all_five": 1800,
+     "vs_pc_int8": {
+      "input_hash_equal": 1551,
+      "logits_identical": 1560,
+      "logits_identical_given_equal_hash": "1551/1551"
+     },
+     "vs_pc_float": {
+      "dlogit": {
+       "median": 0.0457230806350708,
+       "p99": 0.1472034454345703,
+       "max": 0.9449295997619629
+      },
+      "argmax_equal": 1110,
+      "dHR": {
+       "median": 0.0,
+       "p99": 4.117645263671875,
+       "max": 37.88235092163086
+      },
+      "monitored_flag_differs": 26,
+      "state_differs": 0
+     }
+    },
+    "ngh": {
+     "windows": 1800,
+     "resends": 0,
+     "vs_esp32": {
+      "in_hash": 1800,
+      "logits": 1800,
+      "hr": 1800,
+      "sqi": 1800,
+      "st": 1800
+     },
+     "vs_esp32_all_five": 1800,
+     "vs_pc_int8": {
+      "input_hash_equal": 1503,
+      "logits_identical": 1510,
+      "logits_identical_given_equal_hash": "1503/1503"
+     },
+     "vs_pc_float": {
+      "dlogit": {
+       "median": 0.04771542549133301,
+       "p99": 0.14788776874542242,
+       "max": 0.460878849029541
+      },
+      "argmax_equal": 1113,
+      "dHR": {
+       "median": 0.0,
+       "p99": 4.9411773681640625,
+       "max": 44.4705924987793
+      },
+      "monitored_flag_differs": 29,
+      "state_differs": 0
+     }
+    }
+   },
+   "vs_esp32_all_five_total": "5400/5400"
+  }
+ },
+ "orig_vs_dense_on_s3": {
+  "e61": {
+   "in_hash": 1800,
+   "logits": 1800,
+   "hr": 1800,
+   "sqi": 1800,
+   "st": 1800
+  },
+  "u7y": {
+   "in_hash": 1800,
+   "logits": 1800,
+   "hr": 1800,
+   "sqi": 1800,
+   "st": 1800
+  },
+  "ngh": {
+   "in_hash": 1800,
+   "logits": 1800,
+   "hr": 1800,
+   "sqi": 1800,
+   "st": 1800
+  }
+ }
+}

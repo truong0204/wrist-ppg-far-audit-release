@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.py   text diff=python
+*.md   text
+*.csv  text
+*.bib  text
+*.tex  text diff=tex
+*.sh   text eol=lf
+*.c    text
+*.h    text
+*.png  binary
+*.pdf  binary
+*.npz  binary
+uv.lock text -diff linguist-generated

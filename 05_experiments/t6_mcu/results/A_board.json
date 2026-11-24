@@ -1,0 +1,222 @@
+{
+ "source": "board",
+ "threshold_block_score_bpm": 0.41,
+ "persons": {
+  "e61": {
+   "n_windows_float": 22225,
+   "n_windows_device": 22225,
+   "dHR_all": {
+    "median": 0.0,
+    "p99": 2.4705886840820312,
+    "max": 92.23529052734375
+   },
+   "dHR_monitored_both": {
+    "median": 0.0,
+    "p99": 2.4705873107910157,
+    "max": 92.23529052734375
+   },
+   "frac_dHR_nonzero": 0.27059617547806525,
+   "monitored_flag_differs": 100,
+   "state_differs": 0,
+   "device_block_code_vs_python_on_device_outputs": {
+    "records": 69,
+    "python_blocks": 69,
+    "mismatches": 0
+   },
+   "blocks": {
+    "compared": 69,
+    "differ": 21,
+    "steps": {
+     "0": 48,
+     "1": 21,
+     "2": 0,
+     ">=3": 0
+    },
+    "only_one_side": 0
+   },
+   "K": {
+    "test_blocks": 51,
+    "decisions_differ": 0,
+    "test_blocks_one_side_only": 0,
+    "tau_differs": 20,
+    "max_abs_dtau": 0.8235244750976562,
+    "tau_per_state": {
+     "0": {
+      "float": 103.29412078857422,
+      "device": 104.11764526367188
+     },
+     "1": {
+      "float": 126.35294342041016,
+      "device": 126.35294342041016
+     },
+     "2": {
+      "float": 143.64706420898438,
+      "device": 143.64706420898438
+     }
+    }
+   },
+   "R": {
+    "test_blocks": 48,
+    "decisions_differ": 0,
+    "test_blocks_one_side_only": 0,
+    "tau_differs": 4,
+    "max_abs_dtau": 0.8235244750976562
+   },
+   "logits_bit_identical_vs_orig_pc_ccore_inputs": 19259,
+   "logits_bit_identical_vs_orig_pc_python_inputs": 17018,
+   "input_hash_equal_board_vs_pc_ccore": 19176,
+   "logits_bit_identical_given_equal_input_hash": "19176/19176",
+   "resends": 0
+  },
+  "u7y": {
+   "n_windows_float": 23853,
+   "n_windows_device": 23853,
+   "dHR_all": {
+    "median": 0.0,
+    "p99": 4.941175384521484,
+    "max": 50.23529052734375
+   },
+   "dHR_monitored_both": {
+    "median": 0.0,
+    "p99": 4.1176485824584965,
+    "max": 42.0
+   },
+   "frac_dHR_nonzero": 0.2921645076091058,
+   "monitored_flag_differs": 363,
+   "state_differs": 0,
+   "device_block_code_vs_python_on_device_outputs": {
+    "records": 59,
+    "python_blocks": 59,
+    "mismatches": 0
+   },
+   "blocks": {
+    "compared": 59,
+    "differ": 28,
+    "steps": {
+     "0": 31,
+     "1": 13,
+     "2": 3,
+     ">=3": 12
+    },
+    "only_one_side": 0
+   },
+   "K": {
+    "test_blocks": 41,
+    "decisions_differ": 6,
+    "test_blocks_one_side_only": 0,
+    "tau_differs": 0,
+    "max_abs_dtau": 0.0,
+    "tau_per_state": {
+     "0": {
+      "float": 147.76470947265625,
+      "device": 147.76470947265625
+     },
+     "1": {
+      "float": 74.47058868408203,
+      "device": 74.47058868408203
+     },
+     "2": {
+      "float": 132.94117736816406,
+      "device": 132.94117736816406
+     }
+    }
+   },
+   "R": {
+    "test_blocks": 38,
+    "decisions_differ": 4,
+    "test_blocks_one_side_only": 0,
+    "tau_differs": 14,
+    "max_abs_dtau": 15.647056579589844
+   },
+   "logits_bit_identical_vs_orig_pc_ccore_inputs": 20103,
+   "logits_bit_identical_vs_orig_pc_python_inputs": 16205,
+   "input_hash_equal_board_vs_pc_ccore": 19981,
+   "logits_bit_identical_given_equal_input_hash": "19981/19981",
+   "resends": 0
+  },
+  "ngh": {
+   "n_windows_float": 26437,
+   "n_windows_device": 26437,
+   "dHR_all": {
+    "median": 0.0,
+    "p99": 3.2941207885742188,
+    "max": 51.88235092163086
+   },
+   "dHR_monitored_both": {
+    "median": 0.0,
+    "p99": 3.294116973876953,
+    "max": 51.88235092163086
+   },
+   "frac_dHR_nonzero": 0.2740477361273972,
+   "monitored_flag_differs": 283,
+   "state_differs": 0,
+   "device_block_code_vs_python_on_device_outputs": {
+    "records": 75,
+    "python_blocks": 75,
+    "mismatches": 0
+   },
+   "blocks": {
+    "compared": 75,
+    "differ": 41,
+    "steps": {
+     "0": 34,
+     "1": 19,
+     "2": 1,
+     ">=3": 21
+    },
+    "only_one_side": 0
+   },
+   "K": {
+    "test_blocks": 57,
+    "decisions_differ": 1,
+    "test_blocks_one_side_only": 0,
+    "tau_differs": 10,
+    "max_abs_dtau": 7.411766052246094,
+    "tau_per_state": {
+     "0": {
+      "float": 114.82353210449219,
+      "device": 114.82353210449219
+     },
+     "1": {
+      "float": 79.4117660522461,
+      "device": 79.4117660522461
+     },
+     "2": {
+      "float": 92.5882339477539,
+      "device": 85.17646789550781
+     }
+    }
+   },
+   "R": {
+    "test_blocks": 54,
+    "decisions_differ": 4,
+    "test_blocks_one_side_only": 0,
+    "tau_differs": 26,
+    "max_abs_dtau": 50.23529052734375
+   },
+   "logits_bit_identical_vs_orig_pc_ccore_inputs": 21831,
+   "logits_bit_identical_vs_orig_pc_python_inputs": 19772,
+   "input_hash_equal_board_vs_pc_ccore": 21696,
+   "logits_bit_identical_given_equal_input_hash": "21696/21696",
+   "resends": 0
+  }
+ },
+ "pooled": {
+  "K": {
+   "decisions_differ": 7,
+   "test_blocks": 149
+  },
+  "R": {
+   "decisions_differ": 8,
+   "test_blocks": 140
+  }
+ },
+ "determinism_e61": {
+  "hr": true,
+  "sqi": true,
+  "st": true,
+  "blk": true,
+  "logits": true,
+  "in_hash": true
+ }
+}

@@ -1,0 +1,20 @@
+alpha* 0.1429
+   e61 rest T 20.0 bound 0.91 FAR in [0.00, 6.00]/h VACUOUS
+   e61 light T 21.0 bound 0.86 FAR in [0.00, 6.00]/h VACUOUS
+   e61 vigorous T 10.0 bound 1.81 FAR in [0.00, 6.00]/h VACUOUS
+   u7y rest T 11.0 bound 1.65 FAR in [0.00, 6.00]/h VACUOUS
+   u7y light T 25.4 bound 0.71 FAR in [0.00, 5.14]/h 
+   u7y vigorous T 3.8 bound 4.77 FAR in [0.00, 6.00]/h VACUOUS
+   ngh rest T 14.0 bound 1.30 FAR in [0.00, 6.00]/h VACUOUS
+   ngh light T 32.4 bound 0.56 FAR in [0.00, 4.22]/h 
+   ngh vigorous T 9.8 bound 1.85 FAR in [0.00, 6.00]/h VACUOUS
+alpha* 0.3333
+   e61 rest T 20.0 bound 0.72 FAR in [0.00, 6.00]/h VACUOUS
+   e61 light T 21.0 bound 0.68 FAR in [0.00, 6.00]/h VACUOUS
+   e61 vigorous T 10.0 bound 1.43 FAR in [0.00, 6.00]/h VACUOUS
+   u7y rest T 11.0 bound 1.30 FAR in [0.00, 6.00]/h VACUOUS
+   u7y light T 25.4 bound 0.56 FAR in [0.00, 5.39]/h 
+   u7y vigorous T 3.8 bound 3.77 FAR in [0.00, 6.00]/h VACUOUS
+   ngh rest T 14.0 bound 1.02 FAR in [0.00, 6.00]/h VACUOUS
+   ngh light T 32.4 bound 0.44 FAR in [0.00, 4.65]/h 
+   ngh vigorous T 9.8 bound 1.46 FAR in [0.00, 6.00]/h VACUOUS

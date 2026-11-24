@@ -1,0 +1,56 @@
+# raw data never committed (rule 2): only scripts + SHA256
+02_data/raw/
+*.zip
+*.pkl
+*.h5
+*.part
+# python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+# third-party full texts (copyright) — keep locally, do not commit
+01_lit/pdf/
+*.pdf
+# build
+build/
+.pio/
+02_data/derived/
+05_experiments/pilot/results/*.log
+05_experiments/s1c/results/*.pt
+05_experiments/s1c/results/*.npy
+
+# ESP-IDF and its tools, installed inside H32 (PI 23-11), never committed
+06_firmware/esp-idf/
+06_firmware/.espressif/
+06_firmware/**/build/
+06_firmware/**/managed_components/
+06_firmware/**/sdkconfig.old
+06_firmware/.pyshim/
+06_firmware/**/build_*/
+
+# TeX toolchain installed inside H32 (not committed)
+.tinytex/
+
+# LaTeX build files (07_manuscript; main.pdf is committed)
+07_manuscript/*.aux
+07_manuscript/*.log
+07_manuscript/*.fls
+07_manuscript/*.fdb_latexmk
+07_manuscript/*.bbl
+07_manuscript/*.blg
+07_manuscript/*.out
+07_manuscript/*.synctex.gz
+!07_manuscript/main.pdf
+!07_manuscript/figs/*.pdf
+
+# public snapshot repository (08_submission/make_public_snapshot.sh), a separate git repo
+.public_release/
+.public_tmp.*
+# single-commit release copy (08_submission/make_release_repo.sh), a separate git repo
+.release_repo/
+.release_tmp.*

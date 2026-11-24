@@ -1,0 +1,522 @@
+{
+ "summary": {
+  "n_checks": 63,
+  "n_mismatch": 1,
+  "arrays_checked": 225,
+  "arrays_equal_dev_cache": 225,
+  "arrays_equal_run1_run2": 225,
+  "results_json_identical": true,
+  "conclusions_identical": true,
+  "results_sha256": [
+   "94ac3a08324b9d54261dbcc8195582713e2d8693ee1ccef921730bff27e0db7e",
+   "94ac3a08324b9d54261dbcc8195582713e2d8693ee1ccef921730bff27e0db7e"
+  ]
+ },
+ "checks": [
+  {
+   "item": "FAR K pooled",
+   "prereg": 1.4,
+   "script": 1.4003,
+   "match": true,
+   "where": "\u00a75 FAR table",
+   "note": ""
+  },
+  {
+   "item": "FAR K CI low",
+   "prereg": 0.49,
+   "script": 0.4941,
+   "match": true,
+   "where": "\u00a75 FAR table",
+   "note": ""
+  },
+  {
+   "item": "FAR K CI high",
+   "prereg": 2.16,
+   "script": 2.1566,
+   "match": true,
+   "where": "\u00a75 FAR table",
+   "note": ""
+  },
+  {
+   "item": "FAR R pooled",
+   "prereg": 1.05,
+   "script": 1.0491,
+   "match": true,
+   "where": "\u00a75 FAR table",
+   "note": ""
+  },
+  {
+   "item": "FAR R e61",
+   "prereg": 1.05,
+   "script": 1.05,
+   "match": true,
+   "where": "\u00a74.3 prediction",
+   "note": ""
+  },
+  {
+   "item": "FAR R u7y",
+   "prereg": 0.77,
+   "script": 0.7742,
+   "match": true,
+   "where": "\u00a74.3 prediction",
+   "note": ""
+  },
+  {
+   "item": "FAR R ngh",
+   "prereg": 1.24,
+   "script": 1.2406,
+   "match": true,
+   "where": "\u00a74.3 prediction",
+   "note": ""
+  },
+  {
+   "item": "FAR R-thin e61",
+   "prereg": 0.68,
+   "script": 0.68,
+   "match": true,
+   "where": "\u00a75 rev 3",
+   "note": ""
+  },
+  {
+   "item": "FAR R-thin u7y",
+   "prereg": 0.8,
+   "script": 0.8036,
+   "match": true,
+   "where": "\u00a75 rev 3",
+   "note": ""
+  },
+  {
+   "item": "FAR R-thin ngh",
+   "prereg": 1.16,
+   "script": 1.1591,
+   "match": true,
+   "where": "\u00a75 rev 3",
+   "note": ""
+  },
+  {
+   "item": "FAR R-sel pooled",
+   "prereg": 2.71,
+   "script": 2.7139,
+   "match": true,
+   "where": "\u00a75 FAR table",
+   "note": ""
+  },
+  {
+   "item": "FAR ACI mean of persons",
+   "prereg": 0.72,
+   "script": 0.7167,
+   "match": true,
+   "where": "\u00a75 B4 table",
+   "note": ""
+  },
+  {
+   "item": "FAR ACI e61",
+   "prereg": 0.64,
+   "script": 0.6353,
+   "match": true,
+   "where": "\u00a75 B4 table",
+   "note": ""
+  },
+  {
+   "item": "FAR ACI u7y",
+   "prereg": 0.75,
+   "script": 0.7463,
+   "match": true,
+   "where": "\u00a75 B4 table",
+   "note": ""
+  },
+  {
+   "item": "FAR ACI ngh",
+   "prereg": 0.77,
+   "script": 0.7687,
+   "match": true,
+   "where": "\u00a75 B4 table",
+   "note": ""
+  },
+  {
+   "item": "X2 sum d",
+   "prereg": 1.57,
+   "script": 1.5672,
+   "match": true,
+   "where": "\u00a75 dry run",
+   "note": ""
+  },
+  {
+   "item": "X2 bootstrap q05",
+   "prereg": -0.22,
+   "script": -0.2171,
+   "match": true,
+   "where": "\u00a75 dry run, \u00a74.1 Q1",
+   "note": ""
+  },
+  {
+   "item": "X1 p (seed 0)",
+   "prereg": 0.076,
+   "script": 0.0763,
+   "match": true,
+   "where": "\u00a74.1 Q1",
+   "note": ""
+  },
+  {
+   "item": "p_order",
+   "prereg": 0.04,
+   "script": 0.0405,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "X\u0304_K",
+   "prereg": 2.6,
+   "script": 2.6,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "X\u0304_oracle mean",
+   "prereg": 0.92,
+   "script": 0.919,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "H-K1 sum d",
+   "prereg": 13.3,
+   "script": 13.2857,
+   "match": true,
+   "where": "\u00a75 rev 6",
+   "note": ""
+  },
+  {
+   "item": "H-K1 bootstrap q05",
+   "prereg": 2.4,
+   "script": 2.4286,
+   "match": true,
+   "where": "\u00a75 rev 6",
+   "note": ""
+  },
+  {
+   "item": "H-R mean of persons",
+   "prereg": 1.02,
+   "script": 1.0216,
+   "match": true,
+   "where": "\u00a74.3",
+   "note": ""
+  },
+  {
+   "item": "H-R t p",
+   "prereg": 0.17,
+   "script": 0.1742,
+   "match": true,
+   "where": "\u00a74.3",
+   "note": ""
+  },
+  {
+   "item": "H-R 90 % CI low",
+   "prereg": 0.63,
+   "script": 0.6263,
+   "match": true,
+   "where": "\u00a74.3",
+   "note": ""
+  },
+  {
+   "item": "H-R 90 % CI high",
+   "prereg": 1.42,
+   "script": 1.4169,
+   "match": true,
+   "where": "\u00a74.3",
+   "note": ""
+  },
+  {
+   "item": "R-thin mean of persons",
+   "prereg": 0.88,
+   "script": 0.8809,
+   "match": true,
+   "where": "\u00a75 rev 3",
+   "note": ""
+  },
+  {
+   "item": "R-thin t p",
+   "prereg": 0.44,
+   "script": 0.4419,
+   "match": true,
+   "where": "\u00a75 rev 3",
+   "note": ""
+  },
+  {
+   "item": "R \u2212 R-thin paired",
+   "prereg": -0.01,
+   "script": -0.0096,
+   "match": true,
+   "where": "\u00a75 B1",
+   "note": ""
+  },
+  {
+   "item": "R \u2212 R-thin CI low",
+   "prereg": -0.33,
+   "script": -0.3255,
+   "match": true,
+   "where": "\u00a75 B1",
+   "note": ""
+  },
+  {
+   "item": "R \u2212 R-thin CI high",
+   "prereg": 0.31,
+   "script": 0.3062,
+   "match": true,
+   "where": "\u00a75 B1",
+   "note": ""
+  },
+  {
+   "item": "acf detrended lag 1",
+   "prereg": 0.17,
+   "script": 0.1705,
+   "match": true,
+   "where": "\u00a75 B2",
+   "note": ""
+  },
+  {
+   "item": "dAlt coefficient",
+   "prereg": 0.6,
+   "script": 0.5951,
+   "match": true,
+   "where": "\u00a75 S2",
+   "note": ""
+  },
+  {
+   "item": "dAlt CI low",
+   "prereg": 0.29,
+   "script": 0.2888,
+   "match": true,
+   "where": "\u00a75 S2",
+   "note": ""
+  },
+  {
+   "item": "dAlt CI high",
+   "prereg": 1.26,
+   "script": 1.3202,
+   "match": false,
+   "where": "\u00a75 S2",
+   "note": "Monte Carlo: the new script uses 2,000 pairs-bootstrap draws (5 x 400), as prereg \u00a74.2 d prescribes; the dev script used 1,500 (5 x 300). With 3 clusters the upper percentile moves; the point estimate is identical."
+  },
+  {
+   "item": "dAlt with dTime",
+   "prereg": 0.76,
+   "script": 0.7553,
+   "match": true,
+   "where": "\u00a75 rev 5",
+   "note": ""
+  },
+  {
+   "item": "corr(dAlt, dTime)",
+   "prereg": -0.33,
+   "script": -0.3274,
+   "match": true,
+   "where": "\u00a75 rev 5",
+   "note": ""
+  },
+  {
+   "item": "ACI bound vacuous cells",
+   "prereg": 7,
+   "script": 7,
+   "match": true,
+   "where": "\u00a73 D4",
+   "note": ""
+  },
+  {
+   "item": "sensitivity K +20",
+   "prereg": 0.4,
+   "script": 0.4014,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity K +30",
+   "prereg": 0.55,
+   "script": 0.5467,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity K +40",
+   "prereg": 0.55,
+   "script": 0.5535,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity R +20",
+   "prereg": 0.29,
+   "script": 0.2947,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity R +30",
+   "prereg": 0.45,
+   "script": 0.4463,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity R +40",
+   "prereg": 0.5,
+   "script": 0.4989,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity Rthin +20",
+   "prereg": 0.21,
+   "script": 0.2135,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity Rthin +30",
+   "prereg": 0.33,
+   "script": 0.3271,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity Rthin +40",
+   "prereg": 0.36,
+   "script": 0.3622,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity Rsel +20",
+   "prereg": 0.48,
+   "script": 0.4849,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity Rsel +30",
+   "prereg": 0.58,
+   "script": 0.5841,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity Rsel +40",
+   "prereg": 0.57,
+   "script": 0.5672,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity ACI +20",
+   "prereg": 0.32,
+   "script": 0.3225,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity ACI +30",
+   "prereg": 0.49,
+   "script": 0.486,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity ACI +40",
+   "prereg": 0.53,
+   "script": 0.5308,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity K_self +20",
+   "prereg": 0.19,
+   "script": 0.1926,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity K_self +30",
+   "prereg": 0.21,
+   "script": 0.2079,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity K_self +40",
+   "prereg": 0.24,
+   "script": 0.2415,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity B0m +20",
+   "prereg": 0.28,
+   "script": 0.2831,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity B0m +30",
+   "prereg": 0.43,
+   "script": 0.4322,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "sensitivity B0m +40",
+   "prereg": 0.56,
+   "script": 0.5649,
+   "match": true,
+   "where": "\u00a75",
+   "note": ""
+  },
+  {
+   "item": "K \u2212 B0m mean of persons +20",
+   "prereg": 0.11,
+   "script": 0.1115,
+   "match": true,
+   "where": "\u00a75 matched FAR",
+   "note": ""
+  },
+  {
+   "item": "K \u2212 B0m mean of persons +30",
+   "prereg": 0.12,
+   "script": 0.1152,
+   "match": true,
+   "where": "\u00a75 matched FAR",
+   "note": ""
+  },
+  {
+   "item": "K \u2212 B0m mean of persons +40",
+   "prereg": -0.01,
+   "script": -0.0121,
+   "match": true,
+   "where": "\u00a75 matched FAR",
+   "note": ""
+  }
+ ],
+ "arrays": []
+}

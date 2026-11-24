@@ -1,0 +1,45 @@
+loaded 30
+m5 done
+seed 0 H 24.8 main FAR 1.61/h (40) | B0 0.52/h | B0m c=100.4 | B0sm {'rest': 110.3, 'light': 90.9, 'vigorous': 118.5} | B6 q=1.0000 (42)
+seed 1 H 24.5 main FAR 1.47/h (36) | B0 0.45/h | B0m c=102.5 | B0sm {'rest': 118.5, 'light': 90.9, 'vigorous': 118.5} | B6 q=1.0000 (39)
+seed 2 H 24.2 main FAR 0.87/h (21) | B0 0.62/h | B0m c=111.9 | B0sm {'rest': 127.6, 'light': 104.1, 'vigorous': 128.8} | B6 q=1.0000 (25)
+seed 3 H 24.8 main FAR 1.57/h (39) | B0 0.56/h | B0m c=100.4 | B0sm {'rest': 119.4, 'light': 88.5, 'vigorous': 120.2} | B6 q=1.0000 (42)
+seed 4 H 24.5 main FAR 1.47/h (36) | B0 0.65/h | B0m c=102.9 | B0sm {'rest': 119.4, 'light': 90.5, 'vigorous': 125.5} | B6 q=1.0000 (40)
+events 1298
+M1 +20 all      n= 431 | sens main 0.40 B0 0.10 B0m 0.28 B0sm 0.29 B6 0.41 | main-B0m +0.118 [+0.070, +0.167] | main-B0sm +0.116 [+0.063, +0.167] | delay main 82.0 B0m 70.0
+M1 +20 rest     n= 122 | sens main 0.32 B0 0.08 B0m 0.29 B0sm 0.28 B6 0.32 | main-B0m +0.033 [-0.049, +0.115] | main-B0sm +0.041 [-0.057, +0.139] | delay main 86.0 B0m 64.0
+M1 +20 light    n= 238 | sens main 0.45 B0 0.07 B0m 0.21 B0sm 0.26 B6 0.45 | main-B0m +0.231 [+0.172, +0.294] | main-B0sm +0.189 [+0.122, +0.256] | delay main 73.0 B0m 94.0
+M1 +20 vigorous n=  71 | sens main 0.39 B0 0.23 B0m 0.51 B0sm 0.39 B6 0.42 | main-B0m -0.113 [-0.226, +0.014] | main-B0sm +0.000 [-0.113, +0.113] | delay main 102.0 B0m 70.0
+M1 +30 all      n= 428 | sens main 0.55 B0 0.22 B0m 0.43 B0sm 0.45 B6 0.55 | main-B0m +0.114 [+0.061, +0.171] | main-B0sm +0.096 [+0.049, +0.147] | delay main 74.0 B0m 50.0
+M1 +30 rest     n= 113 | sens main 0.52 B0 0.27 B0m 0.54 B0sm 0.46 B6 0.51 | main-B0m -0.018 [-0.106, +0.071] | main-B0sm +0.062 [-0.018, +0.142] | delay main 86.0 B0m 64.0
+M1 +30 light    n= 232 | sens main 0.57 B0 0.17 B0m 0.35 B0sm 0.42 B6 0.58 | main-B0m +0.216 [+0.138, +0.289] | main-B0sm +0.151 [+0.082, +0.216] | delay main 69.0 B0m 46.0
+M1 +30 vigorous n=  83 | sens main 0.52 B0 0.33 B0m 0.51 B0sm 0.53 B6 0.49 | main-B0m +0.012 [-0.084, +0.108] | main-B0sm -0.012 [-0.108, +0.084] | delay main 82.0 B0m 45.0
+M1 +40 all      n= 439 | sens main 0.55 B0 0.31 B0m 0.56 B0sm 0.55 B6 0.54 | main-B0m -0.011 [-0.055, +0.034] | main-B0sm +0.005 [-0.032, +0.039] | delay main 58.0 B0m 53.0
+M1 +40 rest     n= 117 | sens main 0.56 B0 0.37 B0m 0.79 B0sm 0.56 B6 0.55 | main-B0m -0.222 [-0.299, -0.145] | main-B0sm +0.000 [-0.077, +0.085] | delay main 52.0 B0m 50.0
+M1 +40 light    n= 248 | sens main 0.53 B0 0.23 B0m 0.47 B0sm 0.54 B6 0.52 | main-B0m +0.060 [+0.000, +0.117] | main-B0sm -0.008 [-0.048, +0.036] | delay main 56.0 B0m 60.0
+M1 +40 vigorous n=  74 | sens main 0.61 B0 0.46 B0m 0.53 B0sm 0.55 B6 0.59 | main-B0m +0.081 [-0.014, +0.176] | main-B0sm +0.054 [-0.041, +0.149] | delay main 72.0 B0m 52.0
+M2 done
+m3 done
+m7 sigma 3 {"WildPPG": {"mae": {"e61": 5.336723016165928, "ngh": 9.501287811001344, "u7y": 11.116592785403096}, "inj20": {"recovered_median": 15.647056579589844, "track_delay_med_s": 18.0, "frac_never_half": 0.03166666666666667, "sens_main": 0.4013921113689095, "n_events_test": 431}, "inj30": {"recovered_median": 18.11764907836914, "track_delay_med_s": 20.0, "frac_never_half": 0.03333333333333333, "sens_main": 0.5467289719626168, "n_events_test": 428}, "inj40": {"recovered_median": 15.647056579589844, "track_delay_med_s": 20.0, "frac_never_half": 0.065, "sens_main": 0.5535307517084282, "n_events_test": 4
+m7 sigma 5 {"WildPPG": {"mae": {"e61": 5.685367415126909, "ngh": 9.467842432715853, "u7y": 11.146920878634935}, "inj20": {"recovered_median": 15.64706039428711, "track_delay_med_s": 16.0, "frac_never_half": 0.018333333333333333, "sens_main": 0.4037122969837587, "n_events_test": 431}, "inj30": {"recovered_median": 19.76470947265625, "track_delay_med_s": 18.0, "frac_never_half": 0.02, "sens_main": 0.5607476635514018, "n_events_test": 428}, "inj40": {"recovered_median": 18.52941131591797, "track_delay_med_s": 18.0, "frac_never_half": 0.045, "sens_main": 0.5649202733485194, "n_events_test": 439}, "main_far":
+m7 sigma 8 {"WildPPG": {"mae": {"e61": 6.167985964210976, "ngh": 9.658455415847168, "u7y": 11.297883532127901}, "inj20": {"recovered_median": 14.823532104492188, "track_delay_med_s": 14.0, "frac_never_half": 0.011666666666666667, "sens_main": 0.3665893271461717, "n_events_test": 431}, "inj30": {"recovered_median": 19.764707565307617, "track_delay_med_s": 16.0, "frac_never_half": 0.013333333333333334, "sens_main": 0.5116822429906542, "n_events_test": 428}, "inj40": {"recovered_median": 17.705883026123047, "track_delay_med_s": 18.0, "frac_never_half": 0.02, "sens_main": 0.5558086560364465, "n_events_test":
+contamination done
+m7b sigma3|WildPPG|ramp10 {'n_events': 600, 'track_delay_to_half_med_s': 10.0, 'frac_never_half': 0.03333333333333333, 'n_test_events': 424, 'sens_main': 0.5259433962264151, 'det_delay_med_s': 52.0}
+m7b sigma3|WildPPG|ramp30 {'n_events': 600, 'track_delay_to_half_med_s': 20.0, 'frac_never_half': 0.02, 'n_test_events': 428, 'sens_main': 0.5467289719626168, 'det_delay_med_s': 74.0}
+m7b sigma3|WildPPG|ramp60 {'n_events': 600, 'track_delay_to_half_med_s': 34.0, 'frac_never_half': 0.015, 'n_test_events': 425, 'sens_main': 0.571764705882353, 'det_delay_med_s': 82.0}
+m7b sigma3|DaLiA|ramp10 {'n_events': 105, 'track_delay_to_half_med_s': 10.0, 'frac_never_half': 0.0, 'n_test_events': 6, 'sens_main': 0.0, 'det_delay_med_s': None}
+m7b sigma3|DaLiA|ramp30 {'n_events': 105, 'track_delay_to_half_med_s': 18.0, 'frac_never_half': 0.009523809523809525, 'n_test_events': 5, 'sens_main': 0.2, 'det_delay_med_s': 128.0}
+m7b sigma3|DaLiA|ramp60 {'n_events': 105, 'track_delay_to_half_med_s': 34.0, 'frac_never_half': 0.0, 'n_test_events': 3, 'sens_main': 0.3333333333333333, 'det_delay_med_s': 184.0}
+m7b sigma5|WildPPG|ramp10 {'n_events': 600, 'track_delay_to_half_med_s': 8.0, 'frac_never_half': 0.016666666666666666, 'n_test_events': 424, 'sens_main': 0.5377358490566038, 'det_delay_med_s': 53.0}
+m7b sigma5|WildPPG|ramp30 {'n_events': 600, 'track_delay_to_half_med_s': 18.0, 'frac_never_half': 0.011666666666666667, 'n_test_events': 428, 'sens_main': 0.5607476635514018, 'det_delay_med_s': 75.0}
+m7b sigma5|WildPPG|ramp60 {'n_events': 600, 'track_delay_to_half_med_s': 30.0, 'frac_never_half': 0.008333333333333333, 'n_test_events': 425, 'sens_main': 0.5835294117647059, 'det_delay_med_s': 86.0}
+m7b sigma5|DaLiA|ramp10 {'n_events': 105, 'track_delay_to_half_med_s': 8.0, 'frac_never_half': 0.0, 'n_test_events': 6, 'sens_main': 0.0, 'det_delay_med_s': None}
+m7b sigma5|DaLiA|ramp30 {'n_events': 105, 'track_delay_to_half_med_s': 16.0, 'frac_never_half': 0.0, 'n_test_events': 5, 'sens_main': 0.2, 'det_delay_med_s': 126.0}
+m7b sigma5|DaLiA|ramp60 {'n_events': 105, 'track_delay_to_half_med_s': 32.0, 'frac_never_half': 0.0, 'n_test_events': 3, 'sens_main': 0.3333333333333333, 'det_delay_med_s': 184.0}
+m7b sigma8|WildPPG|ramp10 {'n_events': 600, 'track_delay_to_half_med_s': 8.0, 'frac_never_half': 0.006666666666666667, 'n_test_events': 424, 'sens_main': 0.5141509433962265, 'det_delay_med_s': 51.0}
+m7b sigma8|WildPPG|ramp30 {'n_events': 600, 'track_delay_to_half_med_s': 16.0, 'frac_never_half': 0.011666666666666667, 'n_test_events': 428, 'sens_main': 0.5116822429906542, 'det_delay_med_s': 66.0}
+m7b sigma8|WildPPG|ramp60 {'n_events': 600, 'track_delay_to_half_med_s': 26.0, 'frac_never_half': 0.006666666666666667, 'n_test_events': 425, 'sens_main': 0.548235294117647, 'det_delay_med_s': 92.0}
+m7b sigma8|DaLiA|ramp10 {'n_events': 105, 'track_delay_to_half_med_s': 8.0, 'frac_never_half': 0.0, 'n_test_events': 6, 'sens_main': 0.0, 'det_delay_med_s': None}
+m7b sigma8|DaLiA|ramp30 {'n_events': 105, 'track_delay_to_half_med_s': 16.0, 'frac_never_half': 0.0, 'n_test_events': 5, 'sens_main': 0.2, 'det_delay_med_s': 126.0}
+m7b sigma8|DaLiA|ramp60 {'n_events': 105, 'track_delay_to_half_med_s': 28.0, 'frac_never_half': 0.009523809523809525, 'n_test_events': 3, 'sens_main': 0.3333333333333333, 'det_delay_med_s': 184.0}
+written

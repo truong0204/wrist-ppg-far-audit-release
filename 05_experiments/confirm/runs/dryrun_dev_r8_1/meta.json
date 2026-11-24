@@ -1,0 +1,20 @@
+{
+ "label": "dryrun_dev_r8_1",
+ "ids": [
+  "e61",
+  "u7y",
+  "ngh"
+ ],
+ "started": "2026-11-23 08:38:05",
+ "seconds_inference": 788.5,
+ "seconds_total": 813.4,
+ "python": "3.12.16",
+ "platform": "macOS-26.6.2-arm64-arm-64bit",
+ "git_head": "d4ce6f240ba9e2c025748594f46ac3d8d92c533f",
+ "sha256": {
+  "04_code/h32/confirm.py": "58624dde442db9cdbf23534bafef248db4d283062bc22368d4d7bed9561d1488",
+  "05_experiments/confirm/run_confirmatory.py": "1a49ee405adea825a38bf64954503ed88386326f8256d2d92acf67747bcfc28b",
+  "04_code/h32/method.py": "17e84a0a5cf22e1bb21f8c65eb2d6e08361978bb1e531f2bbdbb8dbf26a9e1c9"
+ },
+ "results_sha256": "94ac3a08324b9d54261dbcc8195582713e2d8693ee1ccef921730bff27e0db7e"
+}

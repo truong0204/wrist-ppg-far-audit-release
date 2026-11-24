@@ -1,0 +1,276 @@
+{
+ "alpha_0.1429": [
+  {
+   "sid": "e61",
+   "state": "rest",
+   "T": 20.0,
+   "bound": 0.9071428571428573,
+   "alarm_frac_range": [
+    0.0,
+    1.0
+   ],
+   "far_range_per_h": [
+    0.0,
+    6.0
+   ],
+   "vacuous": true
+  },
+  {
+   "sid": "e61",
+   "state": "light",
+   "T": 21.0,
+   "bound": 0.8639455782312926,
+   "alarm_frac_range": [
+    0.0,
+    1.0
+   ],
+   "far_range_per_h": [
+    0.0,
+    6.0
+   ],
+   "vacuous": true
+  },
+  {
+   "sid": "e61",
+   "state": "vigorous",
+   "T": 10.0,
+   "bound": 1.8142857142857145,
+   "alarm_frac_range": [
+    0.0,
+    1.0
+   ],
+   "far_range_per_h": [
+    0.0,
+    6.0
+   ],
+   "vacuous": true
+  },
+  {
+   "sid": "u7y",
+   "state": "rest",
+   "T": 11.0,
+   "bound": 1.6493506493506493,
+   "alarm_frac_range": [
+    0.0,
+    1.0
+   ],
+   "far_range_per_h": [
+    0.0,
+    6.0
+   ],
+   "vacuous": true
+  },
+  {
+   "sid": "u7y",
+   "state": "light",
+   "T": 25.4,
+   "bound": 0.7142857142857144,
+   "alarm_frac_range": [
+    0.0,
+    0.8571428571428572
+   ],
+   "far_range_per_h": [
+    0.0,
+    5.142857142857143
+   ],
+   "vacuous": false
+  },
+  {
+   "sid": "u7y",
+   "state": "vigorous",
+   "T": 3.8,
+   "bound": 4.7744360902255645,
+   "alarm_frac_range": [
+    0.0,
+    1.0
+   ],
+   "far_range_per_h": [
+    0.0,
+    6.0
+   ],
+   "vacuous": true
+  },
+  {
+   "sid": "ngh",
+   "state": "rest",
+   "T": 14.0,
+   "bound": 1.2959183673469388,
+   "alarm_frac_range": [
+    0.0,
+    1.0
+   ],
+   "far_range_per_h": [
+    0.0,
+    6.0
+   ],
+   "vacuous": true
+  },
+  {
+   "sid": "ngh",
+   "state": "light",
+   "T": 32.4,
+   "bound": 0.5599647266313933,
+   "alarm_frac_range": [
+    0.0,
+    0.7028218694885362
+   ],
+   "far_range_per_h": [
+    0.0,
+    4.216931216931217
+   ],
+   "vacuous": false
+  },
+  {
+   "sid": "ngh",
+   "state": "vigorous",
+   "T": 9.8,
+   "bound": 1.8513119533527698,
+   "alarm_frac_range": [
+    0.0,
+    1.0
+   ],
+   "far_range_per_h": [
+    0.0,
+    6.0
+   ],
+   "vacuous": true
+  }
+ ],
+ "alpha_0.3333": [
+  {
+   "sid": "e61",
+   "state": "rest",
+   "T": 20.0,
+   "bound": 0.7166666666666668,
+   "alarm_frac_range": [
+    0.0,
+    1.0
+   ],
+   "far_range_per_h": [
+    0.0,
+    6.0
+   ],
+   "vacuous": true
+  },
+  {
+   "sid": "e61",
+   "state": "light",
+   "T": 21.0,
+   "bound": 0.6825396825396827,
+   "alarm_frac_range": [
+    0.0,
+    1.0
+   ],
+   "far_range_per_h": [
+    0.0,
+    6.0
+   ],
+   "vacuous": true
+  },
+  {
+   "sid": "e61",
+   "state": "vigorous",
+   "T": 10.0,
+   "bound": 1.4333333333333336,
+   "alarm_frac_range": [
+    0.0,
+    1.0
+   ],
+   "far_range_per_h": [
+    0.0,
+    6.0
+   ],
+   "vacuous": true
+  },
+  {
+   "sid": "u7y",
+   "state": "rest",
+   "T": 11.0,
+   "bound": 1.3030303030303032,
+   "alarm_frac_range": [
+    0.0,
+    1.0
+   ],
+   "far_range_per_h": [
+    0.0,
+    6.0
+   ],
+   "vacuous": true
+  },
+  {
+   "sid": "u7y",
+   "state": "light",
+   "T": 25.4,
+   "bound": 0.5643044619422573,
+   "alarm_frac_range": [
+    0.0,
+    0.8976377952755905
+   ],
+   "far_range_per_h": [
+    0.0,
+    5.385826771653543
+   ],
+   "vacuous": false
+  },
+  {
+   "sid": "u7y",
+   "state": "vigorous",
+   "T": 3.8,
+   "bound": 3.771929824561404,
+   "alarm_frac_range": [
+    0.0,
+    1.0
+   ],
+   "far_range_per_h": [
+    0.0,
+    6.0
+   ],
+   "vacuous": true
+  },
+  {
+   "sid": "ngh",
+   "state": "rest",
+   "T": 14.0,
+   "bound": 1.023809523809524,
+   "alarm_frac_range": [
+    0.0,
+    1.0
+   ],
+   "far_range_per_h": [
+    0.0,
+    6.0
+   ],
+   "vacuous": true
+  },
+  {
+   "sid": "ngh",
+   "state": "light",
+   "T": 32.4,
+   "bound": 0.4423868312757202,
+   "alarm_frac_range": [
+    0.0,
+    0.7757201646090535
+   ],
+   "far_range_per_h": [
+    0.0,
+    4.654320987654321
+   ],
+   "vacuous": false
+  },
+  {
+   "sid": "ngh",
+   "state": "vigorous",
+   "T": 9.8,
+   "bound": 1.4625850340136055,
+   "alarm_frac_range": [
+    0.0,
+    1.0
+   ],
+   "far_range_per_h": [
+    0.0,
+    6.0
+   ],
+   "vacuous": true
+  }
+ ]
+}
