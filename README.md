@@ -4,9 +4,7 @@ Analysis plan, deviations, timestamp records, code and results of the study "Per
 wrist-PPG heart-rate alarms did not hold under outdoor free-living wear: a pre-specified audit on WildPPG" (Nguyen Xuan
 Truong, FPT School of Business & Technology, FPT University). The files are copied unchanged from the project
 repository, whose version-control history (tag `prereg-v2.2`, freeze commit `2decaae`, opening commit `d402033`) is
-not public and is available to the editor and reviewers on request. An archival copy of the project files at
-submission, including the scripts that generate the numbers, tables and figures of the paper, is at Zenodo:
-DOI 10.5281/zenodo.24485648.
+not public and is available to the editor and reviewers on request.
 
 | Path | Content |
 |---|---|
@@ -20,7 +18,7 @@ DOI 10.5281/zenodo.24485648.
 
 Environment: `uv sync --frozen` (`pyproject.toml`, `uv.lock`); targets in the `Makefile`. The raw data must be
 obtained from the dataset authors (`02_data/scripts/`). Some targets and scripts refer to files that are only in the
-archival copy (manuscript, notes).
+project repository (manuscript, notes).
 
 Licences: code MIT (`LICENSE`); results derived from WildPPG CC BY-NC-SA 4.0, material derived from PPG-DaLiA under
 the terms of PPG-DaLiA (`05_experiments/DATA_NOTICE.md`). No raw or processed signals are included.
