@@ -15,6 +15,7 @@ not public and is available to the editor and reviewers on request.
 | `05_experiments/` | experiment scripts and their results: pilot, development analyses (`s1b`, `s1c`, `s2`, `t4`), the confirmatory run (`confirm/runs/confirmatory/results.json`, SHA256 `2460459493a626f8e6205a1fbdc1080278378e990ec8c5d5ac013cfee77cffb2`), and the microcontroller study (`t6_mcu`, with the INT8 models) |
 | `06_firmware/` | ESP-IDF firmware of the microcontroller study (toolchain not included) |
 | `02_data/` | download scripts, dataset notes and SHA256 checksums only; **no data** |
+| `07_manuscript/` | scripts that generate the numbers (`NUMBERS.md`, `generated/numbers.tex`), tables (`generated/*.tex`) and figures (`figs/`) of the paper from `results.json`, with their outputs; the manuscript itself is not included, and `make_tables.py` also reads a notes file of the project repository that is not included |
 
 Environment: `uv sync --frozen` (`pyproject.toml`, `uv.lock`); targets in the `Makefile`. The raw data must be
 obtained from the dataset authors (`02_data/scripts/`). Some targets and scripts refer to files that are only in the
